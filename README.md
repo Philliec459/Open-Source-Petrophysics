@@ -10,7 +10,7 @@ The goal of the Open-Source-Petrophysics repository is to consolidate various pe
 Here are some ideas for the tools we'll be developing:
 
 **Petrophysical Analysis**
-- Read in las file, explore data
+- [Read in las file, explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/1_Read_LAS_Explore_Data.ipynb)
 - Read in las file, create depth and xplot
 - Neutron-Density Chartbook Porosity calculation using KNN
 - Saturation determinations with interactive Pickett Plots using Panel
