@@ -11,7 +11,7 @@ Pleaee find below some ideas for the tools we'll be developing, Any topic in blu
 
 **Petrophysical Analysis**
 - [Read in las file, explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/1_Read_LAS_Explore_Data.ipynb)
-- [Read in las file and create a Depth Plot](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/2_Read_LAS_Depth_Plot.ipynb)
+- [VRough Draft - Read in las file and create a Depth Plot](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/2_Read_LAS_Depth_Plot.ipynb)
 - Neutron-Density Chartbook Porosity calculation using KNN
 - Saturation determinations with interactive Pickett Plots using Panel
 - Clay Bound Water and Qv calculation for Waxman-Smits saturation analysis with Panel interactive widgets
@@ -40,3 +40,16 @@ Pleaee find below some ideas for the tools we'll be developing, Any topic in blu
 
 **Miscellaneous**
 - Creation of NMR logs from echo trains using Python
+
+
+## **HOW TO RUN STS JUPYTER NOTEBOOKS IN COLAB:**
+1) If you click on the Jupyter Notebook links that we have provided, you will see the following type of image while you are still in GitHub. Click on the banner **"Open in CoLab"** at the top, and this will open this notebook in Google CoLab. Look to the far upper right corner of the web page to make sure that you are logged into your google account. If not, then login before trying to run CoLab. 
+
+![Image](GitHub_link.png)
+
+2) On the top title bar of CoLab there is a label called **"Runtime"**(second image below). Click on this and then click on **"Run all"**. That is it. The notebook will get all of the data files and run python. It could take a few minutes, but I have tested this in my environment, and it works fine.
+
+![Image](CoLab_link.png)
+
+3) When finished, then I would suggest in the **"Runtime"** column, click on **"Disconnect and delete runtime"** to end your CoLab session. 
+
