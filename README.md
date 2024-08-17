@@ -5,7 +5,7 @@ We have created this GitHub repository titled [Open-Source-Petrophysics](https:/
 
 We recently conducted a course using Colab, and it performed admirably. You can explore some of the Colab examples from that course on this [GitHub repository](https://github.com/Philliec459/Launchpad-for-STS-Processing-of-STELLA-Spectrometer-Landsat-and-PACE-Ocean-Data), where the notebooks can be launched directly from the README.md page. While Colab is a great tool, there are other options like Binder, Kaggle, SageMaker, and Docker that might be even better for certain use cases.
 
-The goal of the Open-Source-Petrophysics repository is to consolidate various petrophysical tools and scripts into a focused, well-documented resource. Initially, the repository will serve as a launchpad for tools designed with one or two specific objectives, making them easy for others to try out and build upon. Over time, we’ll also develop more comprehensive workflows, like those we have shared in the [Jupyter-Notebooks_for-Characterization-of-a-New-Open-Source-Carbonate-Reservoir-Benchmarking-Case-Study](https://github.com/Philliec459/Jupyter-Notebooks_for-Characterization-of-a-New-Open-Source-Carbonate-Reservoir-Benchmarking-Case-St) repository.
+The goal of the Open-Source-Petrophysics repository is to consolidate various petrophysical tools and scripts into a focused, well-documented resource. Initially, the repository will serve as a launchpad for tools designed with one or two specific objectives, making them easy for others to try out and build upon. Over time, we’ll also develop more comprehensive workflows, like those we have shared in this [repository](https://github.com/Philliec459/Jupyter-Notebooks_for-Characterization-of-a-New-Open-Source-Carbonate-Reservoir-Benchmarking-Case-St) repository.
 
 Here are some ideas for the tools we'll be developing:
 
@@ -17,18 +17,18 @@ Here are some ideas for the tools we'll be developing:
 
 **Permeability and Core Data Interrogation**
 - Conversion of routine core analysis Kair to Klinkenberg permeability
-- Creation of Relative Permeability curves using rock/fluid properties and Panel
+- Creation of Relative Permeability curves using rock/fluid properties with Panel
 - Permeability estimation using KNN, etc.
 - Visualization of thin section photomicrographs from Porosity-Permeability cross plots using Altair
-- Extraction of Thomeer parameters from High Pressure Mercury Injection data using optimization
-- Cluster analysis techniques
-- Rock Typing and comprehensive pore system Petrophysical Rock Types
+- Extraction of Thomeer parameters from High Pressure Mercury Injection (HPMI) data using optimization
+- Evaluation of various unsupervised Cluster analysis techniques
+- Rock Typing and the creation of comprehensive pore system **Petrophysical Rock Types**
 
 **Field Studies**
 - Use of Thomeer parameters to estimate well log and 3D model saturations
-- Free Water Level search using Capillary Pressure data
-- Free Water Level search on individual wells to create a FWL surface in 3D models
-- Calculation of Reservoir Fluid properties
+- Free Water Level (**FWL**) search using Capillary Pressure data
+- Free Water Level search on individual wells used to create a FWL surface in 3D models
+- Calculation of Reservoir Fluid properties and IFT*cos(theta) for carbonate and clastic reservoirs
 - Field maps with interactive links to well-by-well dynamic data for improved field productivity analysis
 
 **Workflows**
