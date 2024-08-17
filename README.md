@@ -7,11 +7,11 @@ We recently conducted a course using Colab, and it performed admirably. You can 
 
 The goal of the Open-Source-Petrophysics repository is to consolidate various petrophysical tools and scripts into a focused, well-documented resource. Initially, the repository will serve as a launchpad for tools designed with one or two specific objectives, making them easy for others to try out and build upon. Over time, we’ll also develop more comprehensive workflows, like those we have shared in this [repository](https://github.com/Philliec459/Jupyter-Notebooks_for-Characterization-of-a-New-Open-Source-Carbonate-Reservoir-Benchmarking-Case-St).
 
-Here are some ideas for the tools we'll be developing:
+Pleaee find below some ideas for the tools we'll be developing, Any topic in blue has a CoLab-ready Jupyter Notebook avaiable. The number of blue links will increase with time as we develop more notebooks. 
 
 **Petrophysical Analysis**
 - [Read in las file, explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/1_Read_LAS_Explore_Data.ipynb)
-- Read in las file, create depth and xplot
+- [Read in las file and create a Depth Plot](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/2_Read_LAS_Depth_Plot.ipynb)
 - Neutron-Density Chartbook Porosity calculation using KNN
 - Saturation determinations with interactive Pickett Plots using Panel
 - Clay Bound Water and Qv calculation for Waxman-Smits saturation analysis with Panel interactive widgets
