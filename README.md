@@ -21,7 +21,7 @@ Pleaee find below some ideas for the tools we'll be developing, Any topic in blu
 - Conversion of routine core analysis Kair to Klinkenberg permeability
 - Creation of Relative Permeability curves using rock/fluid properties with Panel
 - Permeability estimation using KNN, etc.
-- Visualization of thin section photomicrographs from Porosity-Permeability cross plots using Altair
+- [View Clastic Thin Section photomicrographs from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Clastic_poro_perm_thinsections_Altair.ipynb)
 - Extraction of Thomeer parameters from High Pressure Mercury Injection (HPMI) data using optimization
 - Evaluation of various unsupervised Cluster analysis techniques
 - Rock Typing and the creation of comprehensive pore system **Petrophysical Rock Types**
