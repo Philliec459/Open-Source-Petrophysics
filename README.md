@@ -39,7 +39,7 @@ Pleaee find below some ideas for the tools we'll be developing, Any topic in blu
 - Interactive workflows for Waxman-Smits saturation analysis
 
 **Miscellaneous**
-- Creation of NMR logs from echo trains using Python
+- [Creation of NMR logs from echo trains using Python](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_echo_train_processing.ipynb)
 
 ---
 ---
