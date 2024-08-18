@@ -7,7 +7,7 @@ We recently conducted a course using Colab, and it performed admirably. You can 
 
 The goal of the Open-Source-Petrophysics repository is to consolidate various petrophysical tools and scripts into a focused, well-documented resource. Initially, the repository will serve as a launchpad for tools designed with one or two specific objectives, making them easy for others to try out and build upon. Over time, we’ll also develop more comprehensive workflows, like those we have shared in this [repository](https://github.com/Philliec459/Jupyter-Notebooks_for-Characterization-of-a-New-Open-Source-Carbonate-Reservoir-Benchmarking-Case-St).
 
-Pleaee find below some ideas for the tools we'll be developing, Any topic in blue has a CoLab-ready Jupyter Notebook avaiable. The number of blue links will increase with time as we develop more notebooks. 
+Please find below some ideas for the tools we'll be developing, Any topic in blue have a CoLab-ready Jupyter Notebook available from that link. The number of blue links will increase with time as we develop more notebooks. 
 
 **Petrophysical Analysis**
 - [Read in las file, explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/1_Read_LAS_Explore_Data.ipynb)
@@ -20,24 +20,25 @@ Pleaee find below some ideas for the tools we'll be developing, Any topic in blu
 **Permeability and Core Data Interrogation**
 - Conversion of routine core analysis Kair to Klinkenberg permeability
 - Creation of Relative Permeability curves using rock/fluid properties with Panel
-- Permeability estimation using KNN, etc.
+- Permeability estimation using KNN, ...
 - [View Clastic Thin Section photomicrographs from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Clastic_poro_perm_thinsections_Altair.ipynb)
 - [View Carbonate Capillary Pressure curves from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Altair_Interrogation_RosettaStone.ipynb)
-- Extraction of Thomeer parameters from High Pressure Mercury Injection (HPMI) data using optimization
-- Evaluation of various unsupervised Cluster analysis techniques
-- Rock Typing and the creation of comprehensive pore system **Petrophysical Rock Types**
+- Determine Thomeer parameters from High Pressure Mercury Injection (HPMI) data using interactive optimization
+- Evaluation of various unsupervised Cluster analysis techniques with different elbow type methods being employed
+- Rock Typing and the creation of full pore system **Petrophysical Rock Types**
 
 **Field Studies**
 - Use of Thomeer parameters to estimate well log and 3D model saturations
 - Free Water Level (**FWL**) search using Capillary Pressure data
-- Free Water Level search on individual wells used to create a FWL surface in 3D models
-- Calculation of Reservoir Fluid properties and IFT*cos(theta) for carbonate and clastic reservoirs
-- Field maps with interactive links to well-by-well dynamic data for improved field productivity analysis
+- Free Water Level search results from individual wells are then used to create a FWL surface for our 3D models
+- Calculate Reservoir Fluid properties and IFT*cos(theta) for carbonate and clastic reservoirs characterization projects. 
+- Field maps with interactive links to well-by-well dynamic data (reservoir pressure, production) for improved field productivity analysis
 
 **Workflows**
 - Comprehensive workflow for clastic reservoir characterization
 - Comprehensive workflow for carbonate reservoir characterization
 - Interactive workflows for Waxman-Smits saturation analysis
+- Interactive Passey methods used in unconventional well log analysis
 
 **Miscellaneous**
 - [Creation of NMR logs from echo trains using Python](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_echo_train_processing.ipynb)
