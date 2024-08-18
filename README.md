@@ -11,7 +11,7 @@ Pleaee find below some ideas for the tools we'll be developing, Any topic in blu
 
 **Petrophysical Analysis**
 - [Read in las file, explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/1_Read_LAS_Explore_Data.ipynb)
-- [VRough Draft - Read in las file and create a Depth Plot](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/2_Read_LAS_Depth_Plot.ipynb)
+- [Read in las file and create a Depth Plot](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/2_Read_LAS_Depth_Plot.ipynb)
 - Neutron-Density Chartbook Porosity calculation using KNN
 - Saturation determinations with interactive Pickett Plots using Panel
 - Clay Bound Water and Qv calculation for Waxman-Smits saturation analysis with Panel interactive widgets
