@@ -7,7 +7,9 @@ We recently conducted a course using Colab, and it performed admirably. You can 
 
 The goal of the Open-Source-Petrophysics repository is to consolidate various petrophysical tools and scripts into a focused, well-documented resource. Initially, the repository will serve as a launchpad for tools designed with one or two specific objectives, making them easy for others to try out and build upon. Over time, we’ll also develop more comprehensive workflows, like those we have shared in this [repository](https://github.com/Philliec459/Jupyter-Notebooks_for-Characterization-of-a-New-Open-Source-Carbonate-Reservoir-Benchmarking-Case-St).
 
-Please find below some ideas for the tools that we will be developing. Any topic in blue have a CoLab-ready Jupyter Notebook available from that link. The number of blue links will increase with time as we develop more notebooks. 
+Please find below some topics for the petrophysial tools that we will be developing. Any topic in blue will have a CoLab-ready Jupyter Notebook available from that link. The number of blue links will increase with time as we develop more notebooks. 
+
+By pressing the link, the available notebooks will first open in GitHub. Press the upper left "Open in CoLab" button, and this will direct you to this Jupyter Notebook now oepn in CoLab. While in CoLab, each notebook will load the necessary data files and any required python libraries for this environment. **Look to the far upper right corner of the web page to make sure that you are logged into your google account.** If not, then log into your Google account before trying to run CoLab. On the top title bar of CoLab there is a tab called **"Runtime"**. Click on this tab and then click on **"Run all"**. The notebook will upload all of the necessary data files and run python. The process could take a few minutes, but we have tested this in our environment, and CoLab usually works fine. When finished, we suggest that in the **"Runtime"** column, click on **"Disconnect and delete runtime"** to end your CoLab session. That is it. 
 
 **Petrophysical Analysis**
 - [Read in las file, explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/1_Read_LAS_Explore_Data.ipynb)
@@ -46,13 +48,13 @@ Please find below some ideas for the tools that we will be developing. Any topic
 ---
 ---
 ## **HOW TO RUN STS JUPYTER NOTEBOOKS IN COLAB:**
-1) If you click on the Jupyter Notebook links that we have provided, you will see the following type of image while you are still in GitHub. Click on the banner **"Open in CoLab"** at the top, and this will open this notebook in Google CoLab. Look to the far upper right corner of the web page to make sure that you are logged into your google account. If not, then login before trying to run CoLab. 
+1) If you click on the Jupyter Notebook links that we have provided, then you will see the following type of image while you are still in GitHub. Click on the banner **"Open in CoLab"** at the top. This will then open the notebook in Google CoLab. Look to the far upper right corner of the web page to make sure that you are logged into your Google account. If not, then login before trying to run CoLab. 
 
 ![Image](GitHub_link.png)
 
-2) On the top title bar of CoLab there is a label called **"Runtime"**(second image below). Click on this and then click on **"Run all"**. That is it. The notebook will get all of the data files and run python. It could take a few minutes, but I have tested this in my environment, and it works fine.
+2) On the top title bar of CoLab there is a label called **"Runtime"**(second image below). Click on this and then click on **"Run all"**. That is it. The notebook should upload all of the data files, load the necessary python libraries and run the python notebook. It could take a few minutes, but we have tested each notebook in this environment, and CoLab works well most of the time. If you have any issues, then click on **Run all** again. That should take care of the problem unless the CoLab network is extremely busy. 
 
 ![Image](CoLab_link.png)
 
-3) When finished, then I would suggest in the **"Runtime"** column, click on **"Disconnect and delete runtime"** to end your CoLab session. 
+3) When finished, then we suggest in the **"Runtime"** tab, click on **"Disconnect and delete runtime"** to end your CoLab session. This will delete all of the data and terminate the runtime. 
 
