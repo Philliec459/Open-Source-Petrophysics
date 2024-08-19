@@ -43,7 +43,7 @@ By pressing the link, the available notebooks will first open in GitHub. Press t
 - Interactive Passey methods used in unconventional well log analysis
 
 **Miscellaneous**
-- [Creation of NMR logs from echo trains using Python](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_echo_train_processing.ipynb)
+- [Create an NMR logs from echo trains created from bin porosities and then process these echo trains with added noise for the T2 distribution](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_echo_train_processing.ipynb)
 
 ---
 ---
