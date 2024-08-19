@@ -7,12 +7,12 @@ We recently conducted a course using Colab, and it performed admirably. You can 
 
 The goal of the Open-Source-Petrophysics repository is to consolidate various petrophysical tools and scripts into a focused, well-documented resource. Initially, the repository will serve as a launchpad for tools designed with one or two specific objectives, making them easy for others to try out and build upon. Over time, we’ll also develop more comprehensive workflows, like those we have shared in this [repository](https://github.com/Philliec459/Jupyter-Notebooks_for-Characterization-of-a-New-Open-Source-Carbonate-Reservoir-Benchmarking-Case-St).
 
-Please find below some topics for the petrophysial tools that we will be developing. Any topic in blue will have a CoLab-ready Jupyter Notebook available from that link. The number of blue links will increase with time as we develop more notebooks. 
+Below are some topics for the petrophysical tools we are developing. Any topic highlighted in blue is a hyperlink to a python Colab-ready Jupyter Notebook accessible from that link. These notebooks can be run directly in the Colab environment using an ordinary web browser. As we develop more notebooks, the number of blue links will increase.
 
-By pressing the link, the available notebooks will first open in GitHub. Press the upper left "Open in CoLab" button, and this will direct you to this Jupyter Notebook now oepn in CoLab. While in CoLab, each notebook will load the necessary data files and any required python libraries for this environment. **Look to the far upper right corner of the web page to make sure that you are logged into your google account.** If not, then log into your Google account before trying to run CoLab. On the top title bar of CoLab there is a tab called **"Runtime"**. Click on this tab and then click on **"Run all"**. The notebook will upload all of the necessary data files and run python. The process could take a few minutes, but we have tested this in our environment, and CoLab usually works fine. When finished, we suggest that in the **"Runtime"** column, click on **"Disconnect and delete runtime"** to end your CoLab session. That is it. 
+Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open in Colab' button in the upper left corner to launch the notebook in Colab. While in Colab, the notebook will automatically load the necessary data files and any required python libraries. Ensure that you are logged into your Google account by checking the upper right corner of the webpage. If not, log in before running Colab. To execute the notebook, go to the top title bar of Colab, click on the 'Runtime' tab, and select 'Run all.' The notebook will upload all necessary data files and run the Python code. The process may take a few minutes, but we've tested it in our environment, and Colab usually works fine. Once finished, we recommend ending your Colab session by clicking 'Disconnect and delete runtime' in the 'Runtime' tab. That's it.y works fine. When finished, we suggest that in the **"Runtime"** column, click on **"Disconnect and delete runtime"** to end your CoLab session. That is it. 
 
 **Petrophysical Analysis**
-- [Read in las file, explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/1_Read_LAS_Explore_Data.ipynb)
+- [Read in las file, explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/1_Read_LAS_Explore_Data.ipynb) 
 - [Read in las file and create a Depth Plot](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/2_Read_LAS_Depth_Plot.ipynb)
 - [Neutron-Density Chartbook Porosity calculation using Knn](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/3_Read_LAS_Chartbook_Porosity.ipynb)
 - Saturation determinations with interactive Pickett Plots using Panel
@@ -43,11 +43,11 @@ By pressing the link, the available notebooks will first open in GitHub. Press t
 - Interactive Passey methods used in unconventional well log analysis
 
 **Miscellaneous**
-- [Create an NMR logs from echo trains created from bin porosities and then process these echo trains with added noise for the T2 distribution.](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_echo_train_processing.ipynb) You can add any amount of random noise, stack the echo trains to reduce some of this noise and then process the echo trains to create an NMR log. This method will give you a flavor of Time domain to T2 domain T2 inversion. 
+- [Create an NMR logs from echo trains created from bin porosities and then process these echo trains with added noise for the T2 distribution.](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_echo_train_processing.ipynb) The user can introduce any amount of random noise, stack the echo trains to mitigate some of this noise, and then process the echo trains to generate an NMR log. This approach provides an introductory understanding of converting time-domain echo train data to the T2 domain through T2 inversion. 
 
 ---
 ---
-## **HOW TO RUN STS JUPYTER NOTEBOOKS IN COLAB:**
+## **HOW TO RUN JUPYTER NOTEBOOKS IN COLAB:**
 1) If you click on the Jupyter Notebook links that we have provided, then you will see the following type of image while you are still in GitHub. Click on the banner **"Open in CoLab"** at the top. This will then open the notebook in Google CoLab. Look to the far upper right corner of the web page to make sure that you are logged into your Google account. If not, then login before trying to run CoLab. 
 
 ![Image](GitHub_link.png)
