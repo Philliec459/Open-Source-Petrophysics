@@ -24,7 +24,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 
 **Permeability and Core Data Interrogation**
 - Conversion of routine core analysis Kair to Klinkenberg permeability
-- Creation of Relative Permeability curves using rock/fluid properties with Panel
+- [Creation of Relative Permeability curves using rock/fluid properties with Panel](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/RelPerm.ipynb)
 - Permeability estimation using KNN, ...
 - [View Clastic Thin Section photomicrographs from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Clastic_poro_perm_thinsections_Altair.ipynb)
 - [View Carbonate Capillary Pressure curves from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Altair_Interrogation_RosettaStone.ipynb)
