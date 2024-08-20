@@ -18,26 +18,26 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [Read in las file, explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/1_Read_LAS_Explore_Data.ipynb) We use lasio to read in the las files.
 - [Read in las file and create a Depth Plot](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/2_Read_LAS_Depth_Plot.ipynb) using matplotlib.
 - [Neutron-Density Chartbook Porosity calculation using Knn](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/3_Read_LAS_Chartbook_Porosity.ipynb)
-- Refien saturation calculations using interactive Pickett Plots with Panel.
+- Refine saturation calculations using interactive Pickett plots with Panel interactive widgets. 
 - Calculate Clay Bound Water and Qv for Waxman-Smits saturation analysis using Panel interactive widgets.
 - [Python-based optimization for lithology estimation based on the original work of Ruben Charles](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/rubens_optimization_methods.ipynb) 
 
 **Permeability and Core Data Interrogation**
-- Conversion of routine core analysis Kair to Klinkenberg permeability
+- Convert routine core analysis Kair to Klinkenberg permeability. 
 - [Creation of Relative Permeability curves using rock/fluid properties with Panel](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/RelPerm.ipynb)
 - Permeability estimation using KNN, ...
 - [View Clastic Thin Section photomicrographs from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Clastic_poro_perm_thinsections_Altair.ipynb)
 - [View Carbonate Capillary Pressure curves from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Altair_Creeat_Pc_Interrogation_RosettaStone.ipynb). This notebook creates the Pc curves from the Thomeer parameters. 
-- Thomeer parameter analysis to determine the Thomeer parameters from High Pressure Mercury Injection (HPMI) data using optimization
-- Evaluation of various unsupervised Cluster analysis techniques with different elbow type methods being employed
-- Rock Typing and the creation of full pore system **Petrophysical Rock Types**
+- Thomeer parameter analysis used to estimate the Thomeer parameters from High Pressure Mercury Injection (HPMI) samples using optimization.
+- Evaluation of various unsupervised Cluster analysis techniques with different elbow type methods.
+- Rock Typing and the creation of full pore system **Petrophysical Rock Types**.
 
 **Field Studies**
-- Use of Thomeer parameters to estimate well log and 3D model saturations
-- Free Water Level (**FWL**) search using Capillary Pressure data
-- Free Water Level search results from individual wells are then used to create a FWL surface for our 3D models
-- Calculate Reservoir Fluid properties and IFT*cos(theta) for carbonate and clastic reservoirs characterization projects. 
-- Field maps with interactive links to well-by-well dynamic data (reservoir pressure, production) for improved field productivity analysis
+- Use of Thomeer parameters to estimate well log and 3D model saturations.
+- Free Water Level (**FWL**) search using Capillary Pressure data.
+- Free Water Level search results from individual wells used to create a FWL surface for 3D modeling of saturations.
+- Calculate Reservoir Fluid properties and IFT*cos(theta) for carbonate and clastic reservoirs characterization projects. IFT*cos(theta) for carbonates is much lower than for clastic reservoirs. 
+- Create field maps with interactive links to well-by-well dynamic data (pressure and production) for better understanding of the productive characteristics of your reservoir. 
 
 **Workflows**
 - Comprehensive workflow for clastic reservoir characterization
