@@ -15,12 +15,12 @@ Below are some topics for the petrophysical tools we are developing. Any topic h
 Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open in Colab' button in the upper left corner to launch the notebook in Colab. While in Colab, the notebook will automatically load the necessary data files and any required python libraries. Ensure that you are logged into your Google account by checking the upper right corner of the webpage. If not, log in before running Colab. To execute the notebook, go to the top title bar of Colab, click on the 'Runtime' tab, and select 'Run all.' The notebook will upload all necessary data files and run the Python code. The process may take a few minutes, but we've tested it in our environment, and Colab usually works fine. Once finished, we recommend ending your Colab session by clicking 'Disconnect and delete runtime' in the 'Runtime' tab. That's it.y works fine. When finished, we suggest that in the **"Runtime"** column, click on **"Disconnect and delete runtime"** to end your CoLab session. That is it. 
 
 **Petrophysical Analysis**
-- [Read in las file, explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/1_Read_LAS_Explore_Data.ipynb) 
-- [Read in las file and create a Depth Plot](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/2_Read_LAS_Depth_Plot.ipynb)
+- [Read in las file, explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/1_Read_LAS_Explore_Data.ipynb) We use lasio to read in the las files.
+- [Read in las file and create a Depth Plot](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/2_Read_LAS_Depth_Plot.ipynb) using matplotlib.
 - [Neutron-Density Chartbook Porosity calculation using Knn](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/3_Read_LAS_Chartbook_Porosity.ipynb)
-- Saturation determinations with interactive Pickett Plots using Panel
-- Clay Bound Water and Qv calculation for Waxman-Smits saturation analysis with Panel interactive widgets
-- [Python-based optimization for lithology estimation based on the original work of Ruben Charles](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/rubens_optimization_methods.ipynb)
+- Refien saturation calculations using interactive Pickett Plots with Panel.
+- Calculate Clay Bound Water and Qv for Waxman-Smits saturation analysis using Panel interactive widgets.
+- [Python-based optimization for lithology estimation based on the original work of Ruben Charles](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/rubens_optimization_methods.ipynb) 
 
 **Permeability and Core Data Interrogation**
 - Conversion of routine core analysis Kair to Klinkenberg permeability
