@@ -27,7 +27,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [Creation of Relative Permeability curves using rock/fluid properties with Panel](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/RelPerm.ipynb)
 - Permeability estimation using KNN, ...
 - [View Clastic Thin Section photomicrographs from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Clastic_poro_perm_thinsections_Altair.ipynb)
-- [View Carbonate Capillary Pressure curves from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Altair_Creeat_Pc_Interrogation_RosettaStone.ipynb). This notebook creates the Pc curves from the Thomeer parameters. 
+- [View Carbonate Capillary Pressure curves from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Altair_Creeat_Pc_Interrogation_RosettaStone.ipynb). This notebook creates the HPMI Pc curves from the Thomeer parameters prior to the interactice visualization. 
 - Thomeer parameter analysis used to estimate the Thomeer parameters from High Pressure Mercury Injection (HPMI) samples using optimization.
 - Evaluation of various unsupervised Cluster analysis techniques with different elbow type methods.
 - Rock Typing and the creation of full pore system **Petrophysical Rock Types**.
