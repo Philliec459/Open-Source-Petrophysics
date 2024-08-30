@@ -23,7 +23,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [Python-based optimization for lithology estimation based on the original work of Ruben Charles](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/rubens_optimization_methods.ipynb) 
 
 **Permeability and Core Data Interrogation**
-- Convert routine core analysis Kair to Klinkenberg permeability. 
+- [Convert routine core analysis Kair to Klinkenberg permeability](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Klinkenberg_Perm_GitHub.ipynb) 
 - [Create Relative Permeability curves using rock/fluid properties with Panel](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/RelPerm.ipynb)
 - Permeability estimation using KNN, ...
 - [View Clastic Thin Section photomicrographs from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Clastic_poro_perm_thinsections_Altair.ipynb)
