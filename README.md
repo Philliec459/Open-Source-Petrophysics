@@ -29,7 +29,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [View Clastic Thin Section photomicrographs from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Clastic_poro_perm_thinsections_Altair.ipynb)
 - [View Carbonate Capillary Pressure curves from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Altair_Creeat_Pc_Interrogation_RosettaStone.ipynb). This notebook creates the HPMI Pc curves from the Thomeer parameters prior to the interactice visualization. 
 - [Thomeer parameter analysis to derive Thomeer parameters from High Pressure Mercury Injection data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Thomeer_from_Clerke_spreadsheet/Thomeer_from_Pc_curve_fit_auto-use-picks-Auto-Put_on_GitHub_read_Edspreadsheet_ver2.ipynb)
-- [Xu's Gaussian method used to derive Gaussian fit parameters to model HMPI data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Panel_Bvocc_ver3_CoLab.ipynb)
+- [Xu's Gaussian method used to derive Gaussian fit parameters to model HMPI data]((https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Panel_Bvocc_ver5_GitHub_colab.ipynb))
 - Evaluation of various unsupervised Cluster analysis techniques with different elbow type methods.
 - Rock Typing and the creation of full pore system **Petrophysical Rock Types**.
 
