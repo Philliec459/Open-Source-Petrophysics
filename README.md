@@ -24,7 +24,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 
 **Permeability and Core Data Interrogation**
 - [Convert routine core analysis Kair to Klinkenberg permeability](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Klinkenberg/Klinkenberg_Perm_GitHub.ipynb)
-- [Create Relative Permeability curves using rock/fluid properties with Panel](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/RelPerm.ipynb)
+- [Create Relative Permeability curves using rock/fluid properties with Panel](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Relative_Permeability/RelPerm.ipynb)
 - Permeability estimation using KNN, ...
 - [View Clastic Thin Section photomicrographs from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Clastic_poro_perm_thinsections_Altair.ipynb)
 - [View Carbonate Capillary Pressure curves from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Altair_Creeat_Pc_Interrogation_RosettaStone.ipynb). This notebook creates the HPMI Pc curves from the Thomeer parameters prior to the interactice visualization. 
