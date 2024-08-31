@@ -20,7 +20,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [Neutron-Density Chartbook Porosity calculation using Knn](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/3_Read_LAS_Chartbook_Porosity.ipynb)
 - Refine saturation calculations using interactive Pickett plots with Panel interactive widgets. 
 - Calculate Clay Bound Water and Qv for Waxman-Smits saturation analysis using Panel interactive widgets.
-- [Python-based optimization for lithology estimation based on the original work of Ruben Charles](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/rubens_optimization_methods.ipynb) 
+- [Python-based optimization for lithology estimation based on the original work of Ruben Charles](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/rubens_optimization_methods.ipynb) 
 
 **Permeability and Core Data Interrogation**
 - [Convert routine core analysis Kair to Klinkenberg permeability](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Klinkenberg/Klinkenberg_Perm_GitHub.ipynb)
