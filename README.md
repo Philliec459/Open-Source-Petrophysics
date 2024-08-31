@@ -47,7 +47,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - Interactive Passey methods used in unconventional well log analysis
 
 **Miscellaneous**
-- [Create an NMR logs from echo trains created from bin porosities and then process these echo trains with added noise for the T2 distribution.](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_echo_train_processing.ipynb) This approach offers an introductory understanding of converting time-domain echo train data to the T2 domain through T2 inversion. While the process is somewhat circular, real echo trains can be used instead. During this process, the user can introduce random noise, stack the echo trains to reduce some of this noise, and then process the stacked echo trains to generate an NMR log. This method serves as an effective educational tool for NMR logging.
+- [Create an NMR logs from echo trains created from bin porosities and then process these echo trains with added noise for the T2 distribution.](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/NMR_echo_train_processing.ipynb) This approach offers an introductory understanding of converting time-domain echo train data to the T2 domain through T2 inversion. While the process is somewhat circular, real echo trains can be used instead. During this process, the user can introduce random noise, stack the echo trains to reduce some of this noise, and then process the stacked echo trains to generate an NMR log. This method serves as an effective educational tool for NMR logging.
 
 ---
 ---
