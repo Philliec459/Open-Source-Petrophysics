@@ -45,7 +45,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - Create field maps with interactive links to well-by-well dynamic data (pressure and production) for better understanding of the productive characteristics of your reservoir. 
 
 **Workflows**
-- Comprehensive workflow for carbonate reservoir characterization
+- Comprehensive workflow for carbonate reservoir characterization using a new, comprehensive reservoir characterization database from Costa, Geiger and Arnold(1):
     - Load data with lasio
     - Visualize Data Extent (Andy McDonald's method)
     - Calculate Total Porosity using Knn and digitized Chart Book data
@@ -75,3 +75,8 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 
 3) When finished, then we suggest in the **"Runtime"** tab, click on **"Disconnect and delete runtime"** to end your CoLab session. This will delete all of the data and terminate the runtime. 
 
+### REFERENCES:
+1.  Costa Gomes J, Geiger S, Arnold D. The Design of an Open-Source Carbonate Reservoir Model. Petroleum Geoscience, 
+    https://doi.org/10.1144/petgeo2021-067
+2.  Phillips, E. C., Buiting, J. M., Clerke, E. A, “Full Pore System Petrophysical Characterization Technology for Complex Carbonate Reservoirs – Results from Saudi Arabia”, AAPG, 2009 Extended Abstract.
+3.  Clerke, E. A., Mueller III, H. W., Phillips, E. C., Eyvazzadeh, R. Y., Jones, D. H., Ramamoorthy, R., Srivastava, A., (2008) “Application of Thomeer Hyperbolas to decode the pore systems, facies and reservoir properties of the Upper Jurassic Arab D Limestone, Ghawar field, Saudi Arabia: A Rosetta Stone approach”, GeoArabia, Vol. 13, No. 4, p. 113-160, October 2008. 
