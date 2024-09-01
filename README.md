@@ -55,7 +55,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
     - Estimate Thomeer Capillary Pressure parameters using PHIT and Knn Permeability and Python's Knn
     - Perform Free Water Level (FWL) search
     - Estimate Pc-based saturations using Thomeer parameters and and Height above FWL
-    - Expprt results to Excel and las files
+    - Export results to Excel and las files
 - Interactive workflows for Waxman-Smits saturation analysis
 - Interactive Passey methods used in unconventional well log analysis
 
