@@ -45,8 +45,17 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - Create field maps with interactive links to well-by-well dynamic data (pressure and production) for better understanding of the productive characteristics of your reservoir. 
 
 **Workflows**
-- Comprehensive workflow for clastic reservoir characterization
 - Comprehensive workflow for carbonate reservoir characterization
+    - Load data with lasio
+    - Visualize Data Extent (Andy McDonald's method)
+    - Calculate Total Porosity using Knn and digitized Chart Book data
+    - Saturation Calculations using Interactive Pickett Plot
+    - Optimization used to estimate lithology
+    - Model Permeability using kNN
+    - Estimate Thomeer parameters from PHIT and Knn Permeability using Knn
+    - Free Water Level search\
+    - Estimate Capillary Pressure based saturations using Thomeer parameters
+    - Expprt results to las file
 - Interactive workflows for Waxman-Smits saturation analysis
 - Interactive Passey methods used in unconventional well log analysis
 
