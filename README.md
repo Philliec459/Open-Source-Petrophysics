@@ -22,7 +22,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [Refine saturation calculations using interactive Pickett plots with Panel interactive widgets](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/5_Read_LAS_Log_Saturations_Pickett_Plot.ipynb) 
 - [Python-based optimization for lithology estimation based on the original work of Ruben Charles](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/rubens_optimization_methods.ipynb) 
 
-**Shaley Sand Log Analysis Workflow**
+**Shaley Sand Log Analysis**
 - Hodges-Lehman Swb Determiniation
 - Calculate Clay Bound Water and Qv for Waxman-Smits saturation analysis using Panel interactive widgets.
 
