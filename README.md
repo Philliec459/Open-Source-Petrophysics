@@ -52,10 +52,10 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
     - Saturation Calculations using Interactive Pickett Plot
     - Optimization used to estimate lithology
     - Model Permeability using kNN
-    - Estimate Thomeer parameters from PHIT and Knn Permeability using Knn
-    - Free Water Level search\
-    - Estimate Capillary Pressure based saturations using Thomeer parameters
-    - Expprt results to las file
+    - Estimate Thomeer Capillary Pressure parameters using PHIT and Knn Permeability and Python's Knn
+    - Perform Free Water Level (FWL) search
+    - Estimate Pc-based saturations using Thomeer parameters and and Height above FWL
+    - Expprt results to Excel and las files
 - Interactive workflows for Waxman-Smits saturation analysis
 - Interactive Passey methods used in unconventional well log analysis
 
