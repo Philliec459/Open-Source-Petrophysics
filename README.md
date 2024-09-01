@@ -18,6 +18,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [Read in las file, explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/1_Read_LAS_Explore_Data.ipynb) We use lasio to read in the las files.
 - [Read in las file and create a Depth Plot](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/2_Read_LAS_Depth_Plot.ipynb) using matplotlib.
 - [Neutron-Density Chartbook Porosity calculation using Knn](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/3_Read_LAS_Chartbook_Porosity.ipynb)
+- [Lithology from Optimization](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/4_Read_LAS_Optimized_Lithology.ipynb)
 - Refine saturation calculations using interactive Pickett plots with Panel interactive widgets. 
 - Calculate Clay Bound Water and Qv for Waxman-Smits saturation analysis using Panel interactive widgets.
 - [Python-based optimization for lithology estimation based on the original work of Ruben Charles](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/rubens_optimization_methods.ipynb) 
