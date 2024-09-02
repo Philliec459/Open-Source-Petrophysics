@@ -23,7 +23,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [Python-based optimization for lithology estimation based on the original work of Ruben Charles](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/rubens_optimization_methods.ipynb) 
 
 **Shaley Sand Log Analysis**
-- Hodges-Lehmann Multiple Swb Indicator method to final Swb to be used to model Clay Bound Water, PHIE and Qv. 
+- Hodges-Lehmann Multiple Swb Indicator method to estimate Swb that is used to model Clay Bound Water, PHIE and Qv. 
 - Calculate Clay Bound Water, PHIE and Qv for Waxman-Smits saturation analysis using Panel interactive widgets.
 
 **Permeability and Core Data Interrogation**
@@ -74,6 +74,8 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 ![Image](CoLab_link.png)
 
 3) When finished, then we suggest in the **"Runtime"** tab, click on **"Disconnect and delete runtime"** to end your CoLab session. This will delete all of the data and terminate the runtime. 
+
+
 
 ### REFERENCES:
 1.  Costa Gomes J, Geiger S, Arnold D. The Design of an Open-Source Carbonate Reservoir Model. Petroleum Geoscience, 
