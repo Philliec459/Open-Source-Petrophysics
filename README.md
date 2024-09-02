@@ -76,7 +76,8 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 3) When finished, then we suggest in the **"Runtime"** tab, click on **"Disconnect and delete runtime"** to end your CoLab session. This will delete all of the data and terminate the runtime. 
 
 
-
+---
+---
 ### REFERENCES:
 1.  Costa Gomes J, Geiger S, Arnold D. The Design of an Open-Source Carbonate Reservoir Model. Petroleum Geoscience, 
     https://doi.org/10.1144/petgeo2021-067
