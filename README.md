@@ -46,15 +46,15 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 
 **Workflows**
 - Comprehensive workflow for carbonate reservoir characterization using a new, comprehensive reservoir characterization database from Costa, Geiger and Arnold(1):
-    - Load data with lasio
-    - Visualize Data Extent (Andy McDonald's method)
-    - Calculate Total Porosity using Knn and digitized Chart Book data
-    - Saturation Calculations using Interactive Pickett Plot
-    - Optimization used to estimate lithology
+    - Load las file using lasio
+    - Visualize Data Extent using Andy McDonald's method
+    - Calculate Total Porosity from digitized Chart Book data using Knn
+    - Saturation Calculations using Interactive Pickett Plot tool
+    - Optimization of log response functions used to estimate lithology
     - Model Permeability using kNN
-    - Estimate Thomeer Capillary Pressure parameters using PHIT and Knn Permeability and Python's Knn
-    - Perform Free Water Level (FWL) search
-    - Estimate Pc-based saturations using Thomeer parameters and and Height above FWL
+    - Estimate Thomeer Capillary Pressure parameters using PHIT and Knn Permeability and Knn again
+    - Perform Free Water Level (FWL) search on subject well
+    - Estimate Capillary Pressure based saturations from Thomeer parameters and and height above FWL
     - Export results to Excel and las files
 - Interactive workflows for Waxman-Smits saturation analysis
 - Interactive Passey methods used in unconventional well log analysis
