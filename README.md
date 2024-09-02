@@ -45,7 +45,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - Create field maps with interactive links to well-by-well dynamic data (pressure and production) for better understanding of the productive characteristics of your reservoir. 
 
 **Workflows**
-- Comprehensive workflow for carbonate reservoir characterization using a new, comprehensive reservoir characterization database from Costa, Geiger and Arnold(1):
+- [Comprehensive workflow for carbonate reservoir characterization](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Carbonate_Workflow_Costa_Field/CO3_full_workflow.ipynb) using a new, comprehensive carbonate reservoir characterization database from Costa, Geiger and Arnold(1):
     - Load las file using lasio
     - Visualize Data Extent using Andy McDonald's method
     - Calculate Total Porosity from digitized Chart Book data using Knn
