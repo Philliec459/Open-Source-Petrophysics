@@ -14,7 +14,7 @@ Below are some topics for the petrophysical tools we are developing. Any topic h
 
 Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open in Colab' button in the upper left corner to launch the notebook in Colab. While in Colab, the notebook will automatically load the necessary data files and any required python libraries. Ensure that you are logged into your Google account by checking the upper right corner of the webpage. If not, log in before running Colab. To execute the notebook, go to the top title bar of Colab, click on the 'Runtime' tab, and select 'Run all.' The notebook will upload all necessary data files and run the Python code. The process may take a few minutes, but we've tested it in our environment, and Colab usually works fine. Once finished, we recommend ending your Colab session by clicking 'Disconnect and delete runtime' in the 'Runtime' tab. That's it.y works fine. When finished, we suggest that in the **"Runtime"** column, click on **"Disconnect and delete runtime"** to end your CoLab session. That is it. 
 
-**Traditional Petrophysical Analysis**
+## **Traditional Petrophysical Analysis**
 - [Read in las file using Lasio and explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/1_Read_LAS_Explore_Data.ipynb)
 - [Read in las file and create a Depth Plot using matplotlib](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/2_Read_LAS_Depth_Plot.ipynb)
 - [Neutron-Density Chartbook Porosity calculation using Knn](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/3_Read_LAS_Chartbook_Porosity.ipynb)
@@ -22,11 +22,11 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [Refine saturation calculations using interactive Pickett plots with Panel interactive widgets](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/5_Read_LAS_Log_Saturations_Pickett_Plot.ipynb) 
 - [Python-based optimization for lithology estimation using the original work of Ruben Charles](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/rubens_optimization_methods.ipynb) 
 
-**Shaley Sand Log Analysis**
+## **Shaley Sand Log Analysis**
 - Hodges-Lehmann Multiple Shale Indicator method used to model Clay Bound Water, PHIE and Qv. 
 - Calculate Clay Bound Water, PHIE and Qv for Waxman-Smits saturation analysis using Panel interactive widgets.
 
-**Permeability and Core Data Interrogation**
+## **Permeability and Core Data Interrogation**
 - [Convert routine core analysis Kair to Klinkenberg permeability](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Klinkenberg/Klinkenberg_Perm_GitHub.ipynb)
 - [Create Relative Permeability curves using rock/fluid properties with Panel](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Relative_Permeability/RelPerm.ipynb)
 - [View Clastic Thin Section photomicrographs from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Clastic_Poro-perm_Thin_Sections/Clastic_poro_perm_thinsections_Altair.ipynb)
@@ -37,14 +37,14 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - Rock Typing and the creation of full pore system **Petrophysical Rock Types**.
 - Permeability estimation using KNN, ...
 
-**Field Studies**
+## **Field Studies**
 - Use of Thomeer parameters to estimate well log and 3D model saturations.
 - Free Water Level (**FWL**) search using Capillary Pressure data.
 - Free Water Level search results from individual wells used to create a FWL surface for 3D modeling of saturations.
 - Calculate Reservoir Fluid properties and IFT*cos(theta) for carbonate and clastic reservoirs characterization projects. IFT*cos(theta) for carbonates is much lower than for clastic reservoirs. 
 - Create field maps with interactive links to well-by-well dynamic data (pressure and production) for better understanding of the productive characteristics of your reservoir. 
 
-**Workflows**
+## **Workflows**
 - [Comprehensive Carbonate workflow for reservoir characterization](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Carbonate_Workflow_Costa_Field/CO3_full_workflow.ipynb) using a new, comprehensive carbonate reservoir characterization database from Costa, Geiger and Arnold(1). This repository has 17 wells from Costa Field, and a single Jupyter Notebook that performs the following tasks:
     - Load las file using lasio
     - Visualize Data Extent using Andy McDonald's methods
@@ -59,7 +59,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - Interactive workflows for Waxman-Smits saturation analysis
 - Interactive Passey methods used in unconventional well log analysis
 
-**Miscellaneous**
+## **Miscellaneous**
 - [Create an NMR logs from echo trains created from bin porosities and then process these echo trains with added noise for the T2 distribution.](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/NMR_echo_train_processing.ipynb) This approach offers an introductory understanding of converting time-domain echo train data to the T2 domain through T2 inversion. While the process is somewhat circular, real echo trains can be used instead. During this process, the user can introduce random noise, stack the echo trains to reduce some of this noise, and then process the stacked echo trains to generate an NMR log. This method serves as an effective educational tool for NMR logging.
 
 ---
@@ -78,7 +78,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 
 ---
 ---
-### REFERENCES:
+## REFERENCES:
 1.  Costa Gomes J, Geiger S, Arnold D. The Design of an Open-Source Carbonate Reservoir Model. Petroleum Geoscience, 
     https://doi.org/10.1144/petgeo2021-067
 2.  Phillips, E. C., Buiting, J. M., Clerke, E. A, “Full Pore System Petrophysical Characterization Technology for Complex Carbonate Reservoirs – Results from Saudi Arabia”, AAPG, 2009 Extended Abstract.
