@@ -54,8 +54,8 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
     - Perform Free Water Level (FWL) search on subject well
     - Estimate Capillary Pressure based saturations from Thomeer parameters and and height above FWL
     - Export results to Excel and las files
-    - [Geolog Project too with python Loglans](https://github.com/Philliec459/Geolog-Project-with-Interactive-Pickett-Plot-and-Lithology-Optimization-Using-Python-Loglans/tree/main/HW_Interactive)
-- Interactive workflows for Waxman-Smits saturation analysis [with a Geolog Project with our python Loglans](https://github.com/Philliec459/Geolog-Project-Notebook-for-a-Comprehensive-Interactive-Petrophysical-Analysis-Workflow)
+    - [Workflow in a Geolog Project with python Loglans](https://github.com/Philliec459/Geolog-Project-with-Interactive-Pickett-Plot-and-Lithology-Optimization-Using-Python-Loglans/tree/main/HW_Interactive)
+- Interactive workflows for Waxman-Smits saturation analysis [Workflow in a Geolog Project with python Loglans](https://github.com/Philliec459/Geolog-Project-Notebook-for-a-Comprehensive-Interactive-Petrophysical-Analysis-Workflow)
 - Interactive Passey methods used in unconventional well log analysis
 
 ## **Miscellaneous**
