@@ -20,10 +20,10 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [Neutron-Density Chartbook Porosity calculation using Knn](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/3_Read_LAS_Chartbook_Porosity.ipynb)
 - [Lithology from Optimization](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/4_Read_LAS_Optimized_Lithology.ipynb)
 - [Refine saturation calculations using interactive Pickett plots with Panel interactive widgets](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/5_Read_LAS_Log_Saturations_Pickett_Plot.ipynb) 
-- [Python-based optimization for lithology estimation based on the original work of Ruben Charles](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/rubens_optimization_methods.ipynb) 
+- [Python-based optimization for lithology estimation using the original work of Ruben Charles](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/rubens_optimization_methods.ipynb) 
 
 **Shaley Sand Log Analysis**
-- Hodges-Lehmann Multiple Swb Indicator method to estimate Swb that is used to model Clay Bound Water, PHIE and Qv. 
+- Hodges-Lehmann Multiple Shale Indicator method used to model Clay Bound Water, PHIE and Qv. 
 - Calculate Clay Bound Water, PHIE and Qv for Waxman-Smits saturation analysis using Panel interactive widgets.
 
 **Permeability and Core Data Interrogation**
@@ -45,14 +45,14 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - Create field maps with interactive links to well-by-well dynamic data (pressure and production) for better understanding of the productive characteristics of your reservoir. 
 
 **Workflows**
-- [Comprehensive workflow for carbonate reservoir characterization](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Carbonate_Workflow_Costa_Field/CO3_full_workflow.ipynb) using a new, comprehensive carbonate reservoir characterization database from Costa, Geiger and Arnold(1):
+- [Comprehensive Carbonate workflow for reservoir characterization](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Carbonate_Workflow_Costa_Field/CO3_full_workflow.ipynb) using a new, comprehensive carbonate reservoir characterization database from Costa, Geiger and Arnold(1). This repository has 17 wells from Costa Field, and a single Jupyter Notebook that performs the following tasks:
     - Load las file using lasio
-    - Visualize Data Extent using Andy McDonald's method
+    - Visualize Data Extent using Andy McDonald's methods
     - Calculate Total Porosity from digitized Chart Book data using Knn
-    - Saturation Calculations using Interactive Pickett Plot tool
-    - Optimization of log response functions used to estimate lithology
+    - Calculate Water Saturation using Interactive Pickett Plot tool from Panel
+    - Optimization of log response functions to model lithology
     - Model Permeability using kNN
-    - Estimate Thomeer Capillary Pressure parameters using PHIT and Knn Permeability and Knn again
+    - Estimate Thomeer Capillary Pressure parameters from PHIT and Knn Permeability using Knn again
     - Perform Free Water Level (FWL) search on subject well
     - Estimate Capillary Pressure based saturations from Thomeer parameters and and height above FWL
     - Export results to Excel and las files
