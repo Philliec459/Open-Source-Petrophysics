@@ -30,7 +30,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [View Clastic Thin Section photomicrographs from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Clastic_Poro-perm_Thin_Sections/Clastic_poro_perm_thinsections_Altair.ipynb)
 - [View Carbonate Capillary Pressure curves from selected Porosity-Permeability samples using Altair](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Carbonate_Rosetta-Stone_Data_Interrogation/Altair_Create_Pc_Interrogation_RosettaStone.ipynb). This notebook creates the HPMI Pc curves from the Thomeer parameters prior to the interactice visualization. 
 - [Interactive Thomeer parameter analysis from High Pressure Mercury Injection data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Thomeer_from_Clerke_spreadsheet/Thomeer_from_Pc_curve_fit_auto-use-picks-Auto-Put_on_GitHub_read_Edspreadsheet_ver2.ipynb) and a Geolog Project with [Interactive Python Loglans](https://github.com/Philliec459/Geolog-Used-to-Model-Thomeer-Parameters-from-High-Pressure-Mercury-Injection-Data)
-- [Chicheng Xu's normal Gaussian fit of HMPI data - Needs_Revision](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Gaussian_Clerke_Spreadsheet/Panel_Bvocc_ver6_GitHub_colab.ipynb)
+- [Chicheng Xu's normal Gaussian fit of HMPI data - Needs_Revision_to_CDF](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Gaussian_Clerke_Spreadsheet/Panel_Bvocc_ver6_GitHub_colab.ipynb)
 - Evaluation of various unsupervised Cluster analysis techniques with different elbow type methods.
 - Rock Typing and the creation of full pore system **Petrophysical Rock Types**.
 - Permeability estimation using KNN, ...
