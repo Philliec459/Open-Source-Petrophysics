@@ -63,6 +63,14 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [Create an NMR logs from echo trains created from bin porosities and then process these echo trains with added noise for the T2 distribution.](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/NMR_echo_train_processing.ipynb) This approach provides an introductory understanding of converting time-domain echo train data into the T2 domain through T2 inversion. While the process is somewhat circular, real echo trains could be used instead. During this process, the user can introduce random noise to the echo trains, stack multiple echo trains to average out some of the noise, and then process the stacked echo trains to generate an NMR log. This method serves as an effective educational tool for NMR logging to better understand the process.
 - [Interactively Interrogate Well Log data using Python's Altair](https://github.com/Philliec459/Geolog-Python-Loglan-use-of-Altair-to-Interrogate-Log-Analysis-data/blob/main/LogAnalysis_GitHub_read_las-best3_test.ipynb) with Geolog python Loglan files.
 
+## **Additional Open Source Petrophysical Sites:**
+- [Equinor DLISIO](https://github.com/equinor/dlisio)
+- [LASIO](https://github.com/kinverarity1/lasio)
+- [Utilities – SPWLA PDDA ML Contests](https://github.com/pddasig)
+- [Utilities – UTFE](https://github.com/TCDAG/AutoPetrophysics-GOM-CCS)
+- [SEG](https://github.com/seg/2016-ml-contest)
+- [Andy McDonald Petrophysical Website](https://github.com/andymcdgeo)
+
 ---
 ---
 ## **HOW TO RUN JUPYTER NOTEBOOKS IN COLAB:**
