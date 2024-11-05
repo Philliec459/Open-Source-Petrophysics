@@ -21,6 +21,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [Python-based optimization for lithology estimation using the original work of Ruben Charles](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/rubens_optimization_methods.ipynb) 
 
 ## **Shaley Sand Log Analysis**
+- [Entire Shaley Sand Workflow](https://github.com/Philliec459/Geolog-Project-Notebook-for-a-Clastic-Comprehensive-Interactive-Petrophysical-Analysis-Workflow/blob/main/Conventional_NMR_Logs-las-Panel_ver2.ipynb)
 - Hodges-Lehmann Multiple Shale Indicator method used to model Clay Bound Water, PHIE and Qv. 
 - Calculate Clay Bound Water, PHIE and Qv for Waxman-Smits saturation analysis using Panel interactive widgets.
 
