@@ -88,9 +88,10 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 ---
 ---
 ## REFERENCES:
-1.  Costa Gomes J, Geiger S, Arnold D. The Design of an Open-Source Carbonate Reservoir Model. Petroleum Geoscience, 
+1.  Xu, C., Torres-Verdín, C. Pore System Characterization and Petrophysical Rock Classification Using a Bimodal Gaussian Density Function. Math Geoscience 45, 753–771 (2013). https://doi.org/10.1007/s11004-013-9473-2
+2.  Costa Gomes J, Geiger S, Arnold D. The Design of an Open-Source Carbonate Reservoir Model. Petroleum Geoscience, 
     https://doi.org/10.1144/petgeo2021-067
-2.  Phillips, E. C., Buiting, J. M., Clerke, E. A, “Full Pore System Petrophysical Characterization Technology for Complex Carbonate Reservoirs – Results from Saudi Arabia”, AAPG, 2009 Extended Abstract.
-3.  Clerke, E. A., Mueller III, H. W., Phillips, E. C., Eyvazzadeh, R. Y., Jones, D. H., Ramamoorthy, R., Srivastava, A., (2008) “Application of Thomeer Hyperbolas to decode the pore systems, facies and reservoir properties of the Upper Jurassic Arab D Limestone, Ghawar field, Saudi Arabia: A Rosetta Stone approach”, GeoArabia, Vol. 13, No. 4, p. 113-160, October 2008.
-4.  .J.M. Buiting, Fully Upscaled Saturation-Height Functions for Reservoir Modeling Based on Thomeer's Method for Analyzing Capillary Pressure Measurements, SPE Paper 105139, 2007.
-5.  J.J.M. Buiting, E.A. Clerke, Permeability from Porosimetry Measurements: Derivation for a Tortuous and Fractal Tubular Bundle, Journal of Petroleum Science and Engineering, 108 (2013), 267–278.
+3.  Phillips, E. C., Buiting, J. M., Clerke, E. A, “Full Pore System Petrophysical Characterization Technology for Complex Carbonate Reservoirs – Results from Saudi Arabia”, AAPG, 2009 Extended Abstract.
+4.  Clerke, E. A., Mueller III, H. W., Phillips, E. C., Eyvazzadeh, R. Y., Jones, D. H., Ramamoorthy, R., Srivastava, A., (2008) “Application of Thomeer Hyperbolas to decode the pore systems, facies and reservoir properties of the Upper Jurassic Arab D Limestone, Ghawar field, Saudi Arabia: A Rosetta Stone approach”, GeoArabia, Vol. 13, No. 4, p. 113-160, October 2008.
+5.  .J.M. Buiting, Fully Upscaled Saturation-Height Functions for Reservoir Modeling Based on Thomeer's Method for Analyzing Capillary Pressure Measurements, SPE Paper 105139, 2007.
+6.  J.J.M. Buiting, E.A. Clerke, Permeability from Porosimetry Measurements: Derivation for a Tortuous and Fractal Tubular Bundle, Journal of Petroleum Science and Engineering, 108 (2013), 267–278.
