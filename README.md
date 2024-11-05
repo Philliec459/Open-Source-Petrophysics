@@ -36,9 +36,9 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - Permeability estimation using KNN, ...
 
 ## **Field Studies**
-- Use of Thomeer parameters to estimate well log and 3D model saturations.
-- Free Water Level (**FWL**) search using Capillary Pressure data.
-- Free Water Level search results from individual wells used to create a FWL surface for 3D modeling of saturations.
+- [Use of Thomeer parameters to estimate well log and 3D model saturations](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Carbonate_Workflow_Costa_Field/CO3_full_workflow.ipynb)
+- [Free Water Level (**FWL**) search using Capillary Pressure data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Carbonate_Workflow_Costa_Field/CO3_full_workflow.ipynb)
+- [Free Water Level search results from individual wells used to create a FWL surface for 3D modeling of saturations](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Carbonate_Workflow_Costa_Field/CO3_full_workflow.ipynb)
 - Calculate Reservoir Fluid properties and IFT*cos(theta) for carbonate and clastic reservoirs characterization projects. IFT*cos(theta) for carbonates is much lower than for clastic reservoirs. 
 - [Create field maps with interactive links to well-by-well dynamic data (pressure and production)](https://github.com/Philliec459/Altair-used-to-Visualize-and-Interrogate-well-by-well-Production-Data-from-Volve-Field/blob/master/Volve_GitHub_brief.ipynb) for better understanding of the productive characteristics of your reservoir. 
 
