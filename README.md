@@ -22,8 +22,8 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 
 ## **Shaley Sand Log Analysis**
 - [Entire Shaley Sand Workflow](https://github.com/Philliec459/Geolog-Project-Notebook-for-a-Clastic-Comprehensive-Interactive-Petrophysical-Analysis-Workflow/blob/main/Conventional_NMR_Logs-las-Panel_ver2.ipynb)
-- Hodges-Lehmann Multiple Shale Indicator method used to model Clay Bound Water, PHIE and Qv. 
-- Calculate Clay Bound Water, PHIE and Qv for Waxman-Smits saturation analysis using Panel interactive widgets.
+    - Hodges-Lehmann Multiple Shale Indicator method used to model Clay Bound Water, PHIE and Qv. 
+    - Calculate Clay Bound Water, PHIE and Qv for Waxman-Smits saturation analysis using Panel interactive widgets.
 
 ## **Permeability and Core Data Interrogation**
 - [Convert routine core analysis Kair to Klinkenberg permeability](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Klinkenberg/Klinkenberg_Perm_GitHub.ipynb)
