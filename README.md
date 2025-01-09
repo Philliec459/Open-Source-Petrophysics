@@ -70,6 +70,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 
 ![image](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/phase_rotation.gif)
 
+- [**T2 Inversion from actual CMR data**] which is in progress, but the dlis file is to large for GitHub.
 - [**T2 Inversion from actual MRIL-Prime data**](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/curve_fit_ECHOA_MRIL_All_from_Excel-GitHub.ipynb)
 
 ![image](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/nmr_animation.gif)
