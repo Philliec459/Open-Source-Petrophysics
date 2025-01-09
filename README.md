@@ -77,7 +77,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 
 
 ## **Miscellaneous**  
-- [**Interactively Interrogate Well Log data using Python's Altair**](https://github.com/Philliec459/Geolog-Python-Loglan-use-of-Altair-to-Interrogate-Log-Analysis-data/blob/main/LogAnalysis_GitHub_read_las-best3_test.ipynb) with Geolog python Loglan files.
+- [Interactively Interrogate Well Log data using Python's Altair](https://github.com/Philliec459/Geolog-Python-Loglan-use-of-Altair-to-Interrogate-Log-Analysis-data/blob/main/LogAnalysis_GitHub_read_las-best3_test.ipynb) with Geolog python Loglan files.
 
 ## **Additional Open Source Petrophysical Sites:**
 - [Equinor DLISIO](https://github.com/equinor/dlisio) - Andy McDonald has a very good [Jupyter Notebook](https://github.com/andymcdgeo/Petrophysics-Python-Series/blob/master/17%20-%20Loading%20DLIS%20Data.ipynb) on using dlisio.
