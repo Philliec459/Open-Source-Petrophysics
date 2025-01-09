@@ -62,19 +62,19 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 
 ## **Miscellaneous**
 - [Create an NMR logs from echo trains created from bin porosities and then process these echo trains with added noise for the T2 distribution.](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/NMR_echo_train_processing.ipynb) This approach provides an introductory understanding of converting time-domain echo train data into the T2 domain through T2 inversion. While the process is somewhat circular, real echo trains could be used instead. During this process, the user can introduce random noise to the echo trains, stack multiple echo trains to average out some of the noise, and then process the stacked echo trains to generate an NMR log. This method serves as an effective educational tool for NMR logging to better understand the process.
-- [Tutorial on Phase Rotation of NMR data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/Tutorial-curve_fit_echo_train_using_phase_rotation.ipynb)
+- [**Tutorial on Phase Rotation of NMR data**](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/Tutorial-curve_fit_echo_train_using_phase_rotation.ipynb)
 
 ![image](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/Create_Echo_Phase_Correct.png)
 
-- [Phase Correct entire NMR logging section and Perform T2 Inversion](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/curve_fit_echo_train_using_phase_rotation.ipynb)
+- [**Phase Correct entire NMR logging section and Perform T2 Inversion**](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/curve_fit_echo_train_using_phase_rotation.ipynb)
 
 ![image](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/phase_rotation.gif)
 
-- [T2 Inversion from actual MRIL-Prime data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/curve_fit_ECHOA_MRIL_All_from_Excel-GitHub.ipynb)
+- [**T2 Inversion from actual MRIL-Prime data**](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/curve_fit_ECHOA_MRIL_All_from_Excel-GitHub.ipynb)
 
 ![image](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/nmr_animation.gif)
   
-- [Interactively Interrogate Well Log data using Python's Altair](https://github.com/Philliec459/Geolog-Python-Loglan-use-of-Altair-to-Interrogate-Log-Analysis-data/blob/main/LogAnalysis_GitHub_read_las-best3_test.ipynb) with Geolog python Loglan files.
+- [**Interactively Interrogate Well Log data using Python's Altair**](https://github.com/Philliec459/Geolog-Python-Loglan-use-of-Altair-to-Interrogate-Log-Analysis-data/blob/main/LogAnalysis_GitHub_read_las-best3_test.ipynb) with Geolog python Loglan files.
 
 ## **Additional Open Source Petrophysical Sites:**
 - [Equinor DLISIO](https://github.com/equinor/dlisio)
