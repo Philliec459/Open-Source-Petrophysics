@@ -75,7 +75,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 
 >![image](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/nmr_animation.gif)
 >![image5](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/NMR_Echo_Train_Simple_T2_Inversion_Example/MRIL_customer_results.png)
-<img src="(https://github.com/Philliec459/Open-Source-Petrophysics/raw/main/NMR_Echo_Train_Simple_T2_Inversion_Example/MRIL_customer_results.png" alt="MRIL Customer Data" width="200" height="200">
+>![image]<img src="(https://github.com/Philliec459/Open-Source-Petrophysics/raw/main/NMR_Echo_Train_Simple_T2_Inversion_Example/MRIL_customer_results.png" alt="MRIL Customer Data" width="200" height="200">
 
 ## **Miscellaneous**  
 - [Interactively Interrogate Well Log data using Python's Altair](https://github.com/Philliec459/Geolog-Python-Loglan-use-of-Altair-to-Interrogate-Log-Analysis-data/blob/main/LogAnalysis_GitHub_read_las-best3_test.ipynb) with Geolog python Loglan files.
