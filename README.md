@@ -85,7 +85,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 - [LASIO](https://github.com/kinverarity1/lasio)
 - [Utilities – SPWLA PDDA ML Contests](https://github.com/pddasig)
 - [Utilities – UTFE](https://github.com/TCDAG/AutoPetrophysics-GOM-CCS)
-- [SEG](https://github.com/seg/2016-ml-contest)
+- [SEG](https://github.com/seg/)
 - [Andy McDonald Petrophysical Website](https://github.com/andymcdgeo)
 
 ---
