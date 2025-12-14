@@ -12,6 +12,10 @@ Below are some topics for the petrophysical tools we are developing. **Any topic
 
 Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open in Colab' button in the upper left corner to launch the notebook in Colab. While in Colab, the notebook will automatically load the necessary data files and any required python libraries. Ensure that you are logged into your Google account by checking the upper right corner of the webpage. If not, log in before running Colab. To execute the notebook, go to the top title bar of Colab, click on the 'Runtime' tab, and select 'Run all.' The notebook will upload all necessary data files and run the Python code. The process may take a few minutes, but we've tested it in our environment, and Colab usually works fine. When finished, we suggest that in the **"Runtime"** column, click on **"Disconnect and delete runtime"** to end your CoLab session. That is it. 
 
+## **NEW:** *Inventory multiple LAS files in a single well for a rudimentary splicing (at this point) for a final merged file to then be used fixed and reconstructed to be processed in a final petrophysical workflow: 
+- [Merge las files](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las/Merge_well_log_by_run_ver11.ipynb)
+
+
 ## **Traditional Petrophysical Analysis**
 - [Read in las file using Lasio and explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/1_Read_LAS_Explore_Data.ipynb)
 - [Read in las file and create a Depth Plot using matplotlib](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/2_Read_LAS_Depth_Plot.ipynb)
