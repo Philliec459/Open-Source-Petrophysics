@@ -14,7 +14,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 
 ## NEW: *Inventory multiple LAS files from a single well to perform a first-pass (“rudimentary,” for now) splice of all runs into one merged log.* 
 This combined, merged dataset becomes the working master for QC and repair of bad intervals, as well as for training across multiple field wells to estimate missing curves—so every well can ultimately flow through a consistent final petrophysical workflow, producing a consistently processed set of well data for construction of the final 3D model.
-- [Merge las files](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las/Merge_well_log_by_run_ver11.ipynb)
+- [Merge las files](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/Merge_well_log_by_run_ver18.ipynb)
 
 
 ## **Traditional Petrophysical Analysis**
