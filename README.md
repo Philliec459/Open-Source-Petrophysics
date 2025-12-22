@@ -14,7 +14,7 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 
 
 ## NEW: Inventory + merge multiple LAS runs into one master dataset (with badhole flags)
-Inventory and merge multiple LAS files from a single well to create a first-pass (“rudimentary,” for now) splice of all runs into one **merged LAS or CSV**—including **badhole flags**.
+Inventory and merge multiple LAS files from a single well to create a first-pass (“rudimentary,” for now) splice of all runs into one **merged LAS or CSV**—including **badhole flags**. We also include helper code to process the las files adding the SOURCE and start and stop depths to the file names. From this we have created some logic to add a run number prefix to the file to hopefully allow us to better understand each run of well logs. It is not perfect, and the prefix numbers should be revized by hand if necessary. In this instancce we start with a **Bakken** folder and a folder called **Bakken_renamed** was created with the properly named las files including the run prefix. The notebook then worksfrom the **Bakken_renamed** folder.
 
 This merged dataset becomes the **single working master** for:
 
@@ -24,7 +24,7 @@ This merged dataset becomes the **single working master** for:
 
 With every well processed this way, the field can flow through a **consistent final petrophysical workflow**, producing a **uniform, quality-controlled log dataset** suitable for building the **3D static fine-grid model**.
 
-* [Merge LAS files notebook](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/Merge_well_log_by_run_ver18.ipynb)
+* [Merge LAS files notebook](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/Merge_well_log_by_run_ver25_clean_up_data.ipynb)
 
 
 
