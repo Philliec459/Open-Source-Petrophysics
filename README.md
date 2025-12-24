@@ -20,15 +20,15 @@ We also include helper code to process the las files adding the SOURCE and start
 
 We start with the first program to sort las files by run added as a prefix and then add a note about the data acquired in the run - all to be added to the file name saved in *_renamed* file:[Rename las files with run numbers and notes)](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/1-Create_renamed_Folders_with_proper_LAS_filenames_by_runs.ipynb)
 
-We can then review our _renamed folder and view or refine it even further to either [review _remanmed folder](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2a-Read-in_renamed_Folders_with_proper_LAS_filenames_by_runs_to_view.ipynb) or we can [revise the _renamed folder to a _renamed_renamed with more refinement](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2b-Read-in_renamed_Folders_with_proper_LAS_filenames_and_refine_runs.ipynb)
+We can then review our _renamed folder and view or refine it even further to either [review renamed folder](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2a-Read-in_renamed_Folders_with_proper_LAS_filenames_by_runs_to_view.ipynb) or we can [revise the _renamed folder to a _renamed_renamed folder with more refinement](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2b-Read-in_renamed_Folders_with_proper_LAS_filenames_and_refine_runs.ipynb)
 
-This merged dataset becomes the **single working master** for:
+This merged dataset becomes the **single working master for that well** for:
 
 * **QC and repair** of bad intervals (run-by-run issues resolved in the merged view)
 * **Consistent badhole logic** applied to the final merged curves
 * **Curve restoration / missing-curve prediction**, using a controlled split (fixed %) for training vs. validation across multiple wells
 
-With every well processed this way, the field can flow through a **consistent final petrophysical workflow**, producing a **uniform, quality-controlled log dataset** suitable for building the **3D static fine-grid model**.[Merge all LAS files](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-Merge_well_log_by_run_ver26_clean_up_data_panel.ipynb)
+With every well processed this way, the merged well data [Merge all LAS files](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-Merge_well_log_by_run_ver26_clean_up_data_panel.ipynb) can flow through a **consistent final petrophysical workflow**, producing a **uniform, quality-controlled log dataset** suitable for building the **3D static fine-grid model**.
 
 
 
