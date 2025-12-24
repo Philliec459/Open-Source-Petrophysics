@@ -18,13 +18,9 @@ Inventory and merge multiple LAS files from a single well to create a first-pass
 
 We also include helper code to process the las files adding the SOURCE and start and stop depths to the file names. From this we have created some logic to add a run number prefix to the file to hopefully allow us to better understand each run of well logs. It is not perfect, and the prefix numbers should be revized by hand if necessary. In this instancce we start with a **Bakken** folder and a folder called **Bakken_renamed** was created with the properly named las files including the run prefix. The notebook then worksfrom the **Bakken_renamed** folder.
 
-We start with the first program to sort las files by run added as a prefix and then add a note about the data acquired in the run - all to be added to the file name saved in *_renamed* file:
-    [Rename las files with run numbers and notes)](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/1-Create_renamed_Folders_with_proper_LAS_filenames_by_runs.ipynb)
+We start with the first program to sort las files by run added as a prefix and then add a note about the data acquired in the run - all to be added to the file name saved in *_renamed* file:[Rename las files with run numbers and notes)](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/1-Create_renamed_Folders_with_proper_LAS_filenames_by_runs.ipynb)
 
-We can then review our _renamed folder and view or refine it even further:
-
-    [Review](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2a-Read-in_renamed_Folders_with_proper_LAS_filenames_by_runs_to_view.ipynb)
-    [Revise](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2b-Read-in_renamed_Folders_with_proper_LAS_filenames_and_refine_runs.ipynb)
+We can then review our _renamed folder and view or refine it even further to either review _remanmed folder:[Review](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2a-Read-in_renamed_Folders_with_proper_LAS_filenames_by_runs_to_view.ipynb) or we can revise the _renamed folder to a _renamed_renamed with more refinement: [Revise](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2b-Read-in_renamed_Folders_with_proper_LAS_filenames_and_refine_runs.ipynb)
 
 This merged dataset becomes the **single working master** for:
 
