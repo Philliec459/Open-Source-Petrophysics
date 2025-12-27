@@ -30,6 +30,7 @@ This merged dataset becomes the **single working master for that well** for:
 
 With every well processed this way, the merged well data [Merge all LAS files](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-Merge_well_log_by_run_ver26_clean_up_data_panel.ipynb) can flow through a **consistent final petrophysical workflow**, producing a **uniform, quality-controlled log dataset** suitable for building the **3D static fine-grid model**.
 
+Try oue new {Merge Notebook}(https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-Merge_well_log_by_run_ver26_clean_up_data_panel_BRIEF_DEPTH_SLIDERS-GitHub.ipynb) that allows you to view a comprehensive plot of the data and vary the depths using Range Sliders to select top and bottom depths to view your data. 
 
 
 ## **Traditional Petrophysical Analysis**
