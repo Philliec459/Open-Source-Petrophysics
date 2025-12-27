@@ -12,7 +12,8 @@ Below are some topics for the petrophysical tools we are developing. **Any topic
 
 Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open in Colab' button in the upper left corner to launch the notebook in Colab. While in Colab, the notebook will automatically load the necessary data files and any required python libraries. Ensure that you are logged into your Google account by checking the upper right corner of the webpage. If not, log in before running Colab. To execute the notebook, go to the top title bar of Colab, click on the 'Runtime' tab, and select 'Run all.' The notebook will upload all necessary data files and run the Python code. The process may take a few minutes, but we've tested it in our environment, and Colab usually works fine. When finished, we suggest that in the **"Runtime"** column, click on **"Disconnect and delete runtime"** to end your CoLab session. That is it. 
 
-
+---
+---
 ## NEW: Inventory + merge multiple LAS runs into one master dataset (with badhole flags)
 Inventory and merge multiple LAS files from a single well to create a first-pass (“rudimentary,” for now) splice of all runs into one **merged LAS or CSV**—including **badhole flags**. 
 
@@ -31,7 +32,8 @@ This merged dataset becomes the **single working master for that well** for:
 With every well processed this way, the merged well data [Merge all LAS files](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-Merge_well_log_by_run_ver26_clean_up_data_panel.ipynb) can flow through a **consistent final petrophysical workflow**, producing a **uniform, quality-controlled log dataset** suitable for building the **3D static fine-grid model**.
 
 Try our new [Merge Notebook](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-Merge_well_log_by_run_ver26_clean_up_data_panel_BRIEF_DEPTH_SLIDERS-GitHub.ipynb) that allows you to view a comprehensive depth plot and vary the depths using our notebook's native IPywidget Range Sliders to select the top and bottom depths for your depth plot. 
-
+---
+---
 
 ## **Traditional Petrophysical Analysis**
 - [Read in las file using Lasio and explore data](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Simple_Petrpphysical_Workflow/1_Read_LAS_Explore_Data.ipynb)
