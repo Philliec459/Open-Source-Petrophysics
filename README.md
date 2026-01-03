@@ -17,6 +17,8 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 ## NEW: Inventory + merge multiple LAS runs into one master dataset (with badhole flags)
 Inventory and merge multiple LAS files from a single well to create a first-pass (“rudimentary,” for now) splice of all runs into one **merged LAS or CSV**—including **badhole flags**. 
 
+>![image](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/merge.png)
+
 We also include helper code to process the las files adding the SOURCE and start and stop depths to the file names. From this we have created some logic to add a run number prefix to the file to hopefully allow us to better understand each run of well logs. It is not perfect, and the prefix numbers should be revised by hand if necessary. In this instance we start with a **Bakken** folder and a folder called **Bakken_renamed** was created with the properly named las files including the run prefix. The notebook then works from the **Bakken_renamed** folder.
 
 We start with the first program to sort las files by run added as a prefix and then add a note about the data acquired in the run - all to be added to the file name saved in *_renamed* file:[Rename las files with run numbers and notes)](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/1-Create_renamed_Folders_with_proper_LAS_filenames_by_runs.ipynb)
