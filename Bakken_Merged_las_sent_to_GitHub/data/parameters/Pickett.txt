@@ -1,0 +1,5 @@
+m_cem: 1.9
+n_sat: 2.0
+Rw: 0.02
+mslope: 1
+Bdacy: 12.18

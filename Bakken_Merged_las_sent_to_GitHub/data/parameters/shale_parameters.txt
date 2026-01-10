@@ -1,0 +1,7 @@
+sp_clean: -50
+sp_shale: 0
+gr_clean: 45
+gr_shale: 120
+neut_shale: 0.32
+dt_clean: 55.5
+dt_shale: 90.0
