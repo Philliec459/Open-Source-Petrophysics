@@ -30,8 +30,7 @@ This merged dataset becomes the **single working master for that well** for:
 * **Consistent badhole logic** applied to the final merged curves
 * **Curve restoration / missing-curve prediction**, using a controlled split (fixed %) for training vs. validation across multiple wells
 * **Petrophysical Workflows** for chartbook total porosities, Hodges-Lehman shale volumes, optimized lithology and Waxman-Smits water saturations.
- 
-With every well processed this way, the merged well data can flow through a **consistent final petrophysical workflow**, producing a **uniform, quality-controlled log dataset** suitable for building the **3D static fine-grid model**. Try our new [Merge Notebook](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-Merge_well_log_by_run_DEPTH_SLIDERS-GitHub PHIT BVW_ver20_WS.ipynb) that allows you to view a comprehensive depth plot and vary the depths using our notebook's native IPywidget Range Sliders to select the top and bottom depths for your depth plot, compute a chartbook porosite,Hodges-Lehman shale volumes, optimized lithology and Waxman-Smits water saturations. 
+With every well processed this way,the merged well data can flow through a **consistent final petrophysical workflow**, producing a **uniform, quality-controlled log dataset** suitable for building the **3D static fine-grid model**. Try our new [Merge Notebook](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-Merge_well_log_by_run_DEPTH_SLIDERS-GitHub%20PHIT%20BVW_ver20_WS.ipynb) that allows you to view a comprehensive depth plot and vary the depths using our notebook's native IPywidget Range Sliders to select the top and bottom depths for your depth plot, compute chartbook porosity, Hodges-Lehman shale volumes, optimized lithology and Waxman-Smits water saturations. 
 ---
 ---
 
