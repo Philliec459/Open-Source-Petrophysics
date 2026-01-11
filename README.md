@@ -38,8 +38,8 @@ Manual edits are optional if further refinement is desired.
 
 ## Step 2 — Review and (Optionally) Refine Run Grouping
 Renamed files can be quickly reviewed and, if needed, refined into a second-pass folder (e.g., adjusting run order or clarifying tool strings).
-* [Review renamed runs]([2a-Review renamed runs](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2a-Read-in_renamed_Folders_with_proper_LAS_filenames_by_runs_to_view.ipynb)
-* [Refine into a second renamed folder]([2b-Refine renamed runs](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2b-Read-in_renamed_Folders_with_proper_LAS_filenames_and_refine_runs.ipynb)
+* [2a-Review renamed runs](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2a-Read-in_renamed_Folders_with_proper_LAS_filenames_by_runs_to_view.ipynb)
+* [2b-Refine renamed runs](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2b-Read-in_renamed_Folders_with_proper_LAS_filenames_and_refine_runs.ipynb)
 
 This step is optional but helpful for wells with complex acquisition programs.
 
@@ -53,11 +53,10 @@ Once merged, all analysis is applied consistently:
 * Single bad-hole flag logic across all curves
 * Curve restoration / missing-curve prediction
 * Consistent petrophysical workflow:
-  
-        Chartbook porosity
-        Hodges–Lehmann shale volumes
-        Optimized lithology volumes
-        Waxman–Smits water saturation
+  - Chartbook porosity
+  - Hodges–Lehmann shale volumes
+  - Optimized lithology volumes
+  - Waxman–Smits water saturation
   
 * Interactive Pickett plot to refine Rw and electrical properties
 
