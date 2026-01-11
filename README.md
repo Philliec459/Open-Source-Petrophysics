@@ -14,25 +14,56 @@ Clicking a link will first open the Jupyter Notebook in GitHub. Press the 'Open 
 
 ---
 ---
-## NEW: Inventory + merge multiple LAS files from different runs into one master dataset.
-Inventory and merge multiple LAS files from a single well to create a first-pass splice of all runs into one **merged LAS or CSV** file. 
+## NEW: Inventory + Merge Multiple LAS Runs into One Master Dataset
+This workflow inventories and merges multiple LAS files from a single well into one merged LAS or CSV master dataset — creating a first-pass splice of all logging runs into a single, consistent working file.
+
+It is designed for real-world wells with multiple partial runs (triple combo, NMR, ECS, NGS, specialty logs) and overlapping depth coverage.
 
 >![image](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/merge.png)
 
-We have also included helper code to rename the las files adding the LAS:SOURCE along with start and stop depths to add meaning to the las file names. We have created some initial logic to add run number prefix to each file to allow the user to better understand the logging runs used on the well. The prefix numbers can be revised if necessary too. 
+## Step 1 — Rename and Organize LAS Files by Run
+All LAS files are first renamed to preserve logging history and improve traceability:
+* Run number prefixes (e.g., 01_, 02_, 03_)
+* LAS:SOURCE or tool-type notes (NMR, ECS, NGS, Triple Combo, etc.)
+* Start and stop depths from the LAS header
 
-In this instance we start with a **Bakken** folder and a then write out a file folder called **Bakken_renamed** that was created with the newly named las files names including the run number prefix, LAS:SOURCE and start/stop depths. The notebook then works directly from the **Bakken_renamed** folder to create the merged final data.
+**Folder flow**
+* Input: Bakken/
+* Output: Bakken_renamed/
 
-The first program sorts the las files by run number adding a prefix to the file name and then adds a note about the type of data acquired for that run (NMR, ECS, NGS...) - all to be added to the file name that is saved in the **_renamed** folder:[Rename las files with run numbers and notes)](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/1-Create_renamed_Folders_with_proper_LAS_filenames_by_runs.ipynb)
+**Notebook**
+[Rename las files with run numbers and notes)](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/1-Create_renamed_Folders_with_proper_LAS_filenames_by_runs.ipynb)
 
-You can  review your _renamed folder data and refine the las file names even further to either [review renamed folder](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2a-Read-in_renamed_Folders_with_proper_LAS_filenames_by_runs_to_view.ipynb) or we can [revise the _renamed folder to a _renamed_renamed folder with more refinement](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2b-Read-in_renamed_Folders_with_proper_LAS_filenames_and_refine_runs.ipynb)
+Manual edits are optional if further refinement is desired.
 
-The merged data file then becomes the **single working master file for that well:**
-* **QC and repair** bad intervals (run-by-run issues resolved in the merged view).
-* **Consistent badhole logic** can be applied for the final merged curves.
-* **Curve restoration / missing-curve prediction**, could be run using a controlled fixed % for training vs. validation across multiple wells too id necessary.
-* Our  third Jupyter Notebook contains a **Petrophysical Workflow** to calculate a chartbook total porosities, Hodges-Lehman shale volumes from multiple shale indicators, optimized lithology and Waxman-Smits water saturations in the end using an interactive Pickett plot to refine the Electrical Properties of the formation and Rw. The merged well data flow through a **consistent final petrophysical workflow** producing a **uniform, quality-controlled log dataset** suitable for building the **3D static fine-grid model**.
-* Our final Jupyter Notebook [Merge Notebook](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-Merge_well_log_by_run_DEPTH_SLIDERS-GitHub%20PHIT%20BVW_ver20_WS.ipynb) allows you to view a comprehensive depth plot, vary the Zone of Interest depths using IPywidget Range Sliders by selecting the top and bottom depths for your depth plot, compute chartbook porosity, Hodges-Lehman shale volumes, optimized lithology and Waxman-Smits water saturations. 
+## Step 2 — Review and (Optionally) Refine Run Grouping
+Renamed files can be quickly reviewed and, if needed, refined into a second-pass folder (e.g., adjusting run order or clarifying tool strings).
+* [Review renamed runs](2a-Review renamed runs)
+* [Refine into a second renamed folder](2b-Refine renamed runs)
+
+This step is optional but helpful for wells with complex acquisition programs.
+
+## Step 3 — Merge All Runs into One Master Working File
+All runs are merged into a single depth-indexed dataset that becomes the only working file for the well.
+* [Merge + Petrophysical Workflow Notebook](3-Merge_well_log_by_run_DEPTH_SLIDERS-GitHub_PHIT_BVW_ver20_WS.ipynb)
+
+### What the master dataset supports
+Once merged, all analysis is applied consistently:
+* QC and repair of bad intervals
+* Single bad-hole flag logic across all curves
+* Curve restoration / missing-curve prediction
+* Consistent petrophysical workflow:
+    Chartbook porosity
+    Hodges–Lehmann shale volumes
+    Optimized lithology volumes
+    Waxman–Smits water saturation
+* Interactive Pickett plot to refine Rw and electrical properties
+
+The output is a uniform, quality-controlled log dataset suitable for:
+* Static fine-grid modeling
+* Rock typing
+* Saturation-height modeling
+* Multi-well ML workflows
 ---
 ---
 
