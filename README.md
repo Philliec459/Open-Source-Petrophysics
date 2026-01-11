@@ -24,7 +24,7 @@ It is designed for real-world wells with multiple partial runs (triple combo, NM
 ## Step 1 — Rename and Organize LAS Files by Run
 All LAS files are first renamed to preserve logging history and improve traceability:
 * Run number prefixes (e.g., 01_, 02_, 03_)
-* LAS:SOURCE or tool-type notes (NMR, ECS, NGS, Triple Combo, etc.)
+* LAS:SOURCE and tool-type notes (NMR, ECS, NGS, Triple Combo, etc.)
 * Start and stop depths from the LAS header
 
 **Folder flow**
@@ -32,12 +32,14 @@ All LAS files are first renamed to preserve logging history and improve traceabi
 * Output: Bakken_renamed/
 
 **Notebook**
+
 [Rename las files with run numbers and notes)](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/1-Create_renamed_Folders_with_proper_LAS_filenames_by_runs.ipynb)
 
 Manual edits are optional if further refinement is desired.
 
 ## Step 2 — Review and (Optionally) Refine Run Grouping
 Renamed files can be quickly reviewed and, if needed, refined into a second-pass folder (e.g., adjusting run order or clarifying tool strings).
+
 * [2a-Review renamed runs](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2a-Read-in_renamed_Folders_with_proper_LAS_filenames_by_runs_to_view.ipynb)
 * [2b-Refine renamed runs](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2b-Read-in_renamed_Folders_with_proper_LAS_filenames_and_refine_runs.ipynb)
 
@@ -45,6 +47,7 @@ This step is optional but helpful for wells with complex acquisition programs.
 
 ## Step 3 — Merge All Runs into One Master Working File
 All runs are merged into a single depth-indexed dataset that becomes the only working file for the well.
+
 * [Merge + Petrophysical Workflow Notebook](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-Merge_well_log_by_run_DEPTH_SLIDERS-GitHub%20PHIT%20BVW_ver20_WS.ipynb)
 
 ### What the master dataset supports
