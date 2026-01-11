@@ -38,14 +38,14 @@ Manual edits are optional if further refinement is desired.
 
 ## Step 2 — Review and (Optionally) Refine Run Grouping
 Renamed files can be quickly reviewed and, if needed, refined into a second-pass folder (e.g., adjusting run order or clarifying tool strings).
-* [Review renamed runs](2a-Review renamed runs)
-* [Refine into a second renamed folder](2b-Refine renamed runs)
+* [Review renamed runs]([2a-Review renamed runs](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2a-Read-in_renamed_Folders_with_proper_LAS_filenames_by_runs_to_view.ipynb)
+* [Refine into a second renamed folder]([2b-Refine renamed runs](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/2b-Read-in_renamed_Folders_with_proper_LAS_filenames_and_refine_runs.ipynb)
 
 This step is optional but helpful for wells with complex acquisition programs.
 
 ## Step 3 — Merge All Runs into One Master Working File
 All runs are merged into a single depth-indexed dataset that becomes the only working file for the well.
-* [Merge + Petrophysical Workflow Notebook](3-Merge_well_log_by_run_DEPTH_SLIDERS-GitHub_PHIT_BVW_ver20_WS.ipynb)
+* [Merge + Petrophysical Workflow Notebook](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-Merge_well_log_by_run_DEPTH_SLIDERS-GitHub%20PHIT%20BVW_ver20_WS.ipynb)
 
 ### What the master dataset supports
 Once merged, all analysis is applied consistently:
@@ -53,10 +53,12 @@ Once merged, all analysis is applied consistently:
 * Single bad-hole flag logic across all curves
 * Curve restoration / missing-curve prediction
 * Consistent petrophysical workflow:
-    Chartbook porosity
-    Hodges–Lehmann shale volumes
-    Optimized lithology volumes
-    Waxman–Smits water saturation
+  
+        Chartbook porosity
+        Hodges–Lehmann shale volumes
+        Optimized lithology volumes
+        Waxman–Smits water saturation
+  
 * Interactive Pickett plot to refine Rw and electrical properties
 
 The output is a uniform, quality-controlled log dataset suitable for:
