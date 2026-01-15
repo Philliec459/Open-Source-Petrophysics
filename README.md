@@ -19,7 +19,7 @@ This workflow inventories and merges multiple LAS files from a single well into 
 
 It is designed for real-world wells with multiple partial runs (triple combo, NMR, ECS, NGS, specialty logs) and overlapping depth coverage.
 
->![image](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/merge.png)
+>![image](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/Merge.png)
 
 ## Step 1 — Rename and Organize LAS Files by Run
 All LAS files are first renamed to preserve logging history and improve traceability:
