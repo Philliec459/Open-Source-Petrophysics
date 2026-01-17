@@ -46,12 +46,11 @@ Renamed files can be quickly reviewed and, if needed, refined into a second-pass
 This step is optional but helpful for wells with complex acquisition programs.
 
 ## Step 3 — Merge All Runs into One Master Working File
-All logging runs are depth matched to Run0 and merged into a single depth-indexed dataset that becomes the primary working file for the well.
+All logging runs are depth matched to Run0 and merged into a **single** depth-indexed dataset that becomes the primary working file for the well.
 
 [Merge + Petrophysical Workflow Notebook](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-GITHUB-Merge_well_log_by_Depth_shifted_runs_Co_Logging_final.ipynb)
 
->**QC of Automatic Depth Shift all logging runs to the Base run using our python manual depth shift app:**
->![depth-shift](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/depth_shift.png)
+>[**QC of our Automatic Depth Shift Program**](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/depth_shift.png) using our new python interactive depth shift module. 
 
 
 ### What the master dataset will support:
