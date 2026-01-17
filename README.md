@@ -46,26 +46,26 @@ Renamed files can be quickly reviewed and, if needed, refined into a second-pass
 This step is optional but helpful for wells with complex acquisition programs.
 
 ## Step 3 — Merge All Runs into One Master Working File
-All runs are depth matched to Run0 and merged into a single depth-indexed dataset that becomes the only working file for the well.
+All logging runs are depth matched to Run0 and merged into a single depth-indexed dataset that becomes the primary working file for the well.
 
 [Merge + Petrophysical Workflow Notebook](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-GITHUB-Merge_well_log_by_Depth_shifted_runs_Co_Logging_final.ipynb)
 
-**QC of Automatic Depth Shift all logging runs to the Base run using our python manual depth shift app:**
+>**QC of Automatic Depth Shift all logging runs to the Base run using our python manual depth shift app:**
 >![depth-shift](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/depth_shift.png)
 
 
-### What the master dataset supports
+### What the master dataset will support:
 Once merged, all analysis is applied consistently:
-* QC and repair of bad intervals
-* Single bad-hole flag logic across all curves
-* Curve restoration / missing-curve prediction
 * Consistent petrophysical workflow:
   - Chartbook porosity
-  - Hodges–Lehmann shale volumes
-  - Optimized lithology volumes
-  - Waxman–Smits water saturation
-  
-* Interactive Pickett plot to refine Rw and electrical properties
+  - Hodges–Lehmann shale volumes using multiple shale indicators
+  - Optimized lithology
+  - Interactive Pickett plot to refine Rw and electrical properties
+  - Waxman–Smits water saturation with variable m* logic
+* QC of well logs and repair of bad intervals (in progress)
+* Bad-hole flag logic
+* Curve restoration with missing-curve prediction (in progress)
+
 
 The output is a uniform, quality-controlled log dataset suitable for:
 * Static fine-grid modeling
