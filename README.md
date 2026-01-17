@@ -54,16 +54,15 @@ All logging runs are depth matched to run0 and merged into a **single** depth-in
 
 ### What the master dataset will support:
 Once merged, all analysis is applied consistently:
-* Consistent petrophysical workflow:
-  - Chartbook porosity
-  - Hodges–Lehmann shale volumes using multiple shale indicators
-  - Optimized lithology
+* **Consistent petrophysical workflow:**
+  - Calculate chartbook porosity
+  - Optimize on lithology
+  - Hodges–Lehmann shale volumes from multiple shale indicators
   - Interactive Pickett plot to refine Rw and electrical properties
-  - Waxman–Smits water saturation with variable m* logic
+  - Waxman–Smits water saturation with variable m*
 * QC of well logs and repair of bad intervals (in progress)
 * Bad-hole flag logic
 * Curve restoration with missing-curve prediction (in progress)
-
 
 The output is a uniform, quality-controlled log dataset suitable for:
 * Static fine-grid modeling
