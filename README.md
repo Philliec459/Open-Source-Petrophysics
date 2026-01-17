@@ -50,7 +50,7 @@ All runs are depth matched to Run0 and merged into a single depth-indexed datase
 
 [Merge + Petrophysical Workflow Notebook](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-GITHUB-Merge_well_log_by_Depth_shifted_runs_Co_Logging_final.ipynb)
 
-**QC of Automatic Depth Shift all logging runs to the Base run using manual depth shift app:**
+**QC of Automatic Depth Shift all logging runs to the Base run using our python manual depth shift app:**
 >![depth-shift](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/depth_shift.png)
 
 
