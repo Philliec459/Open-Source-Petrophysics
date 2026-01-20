@@ -70,6 +70,30 @@ The output is a uniform, quality-controlled log dataset suitable for:
 * Saturation-height modeling
 * Multi-well ML workflows
 ---
+## Manual Depth Shift of all logging runs using multiple Anchor Points using an interactive python module in our new LAS File Merge software that includes a Petrophysical Workflow, all available on GitHub.
+
+We have updated our python merging software to employ multiple Anchor points over each run to depth shift each logging runs to base run0. Our preferred method is to use the python **Manual** method that employs a GUI to create an anchor point for any user defined depth window. By default, we are using 150 feet depth windows.
+
+With this GUI the user shifts the run_x GR curve to base run0 GR and then uses the button **“Adds/Update”** to register a depth shift Anchor point for that depth window. The program then automatically moves to the next 150 foot window to repeat the same process. Shift the GR curve if necessary and hit **“Add/Update”** to register that Anchor point. Finally, at the end, the user hits the button that says, **“Fit Data to Anchors”** and that sets all the anchor points for that run. Repeat this process for all runs above run0. This program can be found on GitHub at this [link](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-Manual-GITHUB-Merge_well_log_by_Depth_shifted_runs_Co_Logging_QC_Dep-shift8.ipynb)
+
+We also have an **Automated** version of this process that registers a shift for each window, and example output can be found below:
+
+    Run 4: 10 auto anchors  |  OK = 10
+	  z_top	z_bot	z_center	ok	win	step	valid	best	peak_norm
+    0	9849.0	9999.0	9924.0	0.0	True	150.0	0.5	1.0	0	0.982092
+    1	9899.0	10049.0	9974.0	0.0	True	150.0	0.5	1.0	0	0.990257
+    2	9949.0	10099.0	10024.0	-0.5	True	150.0	0.5	1.0	-1	0.999010
+    3	9999.0	10149.0	10074.0	-0.5	True	150.0	0.5	1.0	-1	0.999082
+    4	10049.0	10199.0	10124.0	0.0	True	150.0	0.5	1.0	0	0.999086
+    5	10099.0	10249.0	10174.0	0.0	True	150.0	0.5	1.0	0	0.999113
+    6	10149.0	10299.0	10224.0	0.0	True	150.0	0.5	1.0	0	0.999080
+    7	10199.0	10349.0	10274.0	-0.5	True	150.0	0.5	1.0	-1	0.980588
+    8	10249.0	10399.0	10324.0	-0.5	True	150.0	0.5	1.0	-1	0.994060
+    9	10299.0	10449.0	10374.0	-0.5	True	150.0	0.5	1.0	-1	0.991652
+
+This Automated program can be found at this [link](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-AUTO-GITHUB-Merge_well_log_by_Depth_shifted_runs_Co_Logging_QC_Dep-shift8.ipynb)
+
+---
 ---
 
 ## **Traditional Petrophysical Analysis**
