@@ -93,6 +93,21 @@ We also have an **Automated** version of this process that registers a shift for
 
 This Automated program can be found at this [link](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-AUTO-GITHUB-Merge_well_log_by_Depth_shifted_runs_Co_Logging_QC_Dep-shift8.ipynb)
 
+We also asked ChatGPT to help translate our petrophysical workflow (written in Python) into a Qt-based graphical user interface (GUI). The workflow includes:
+	•	Add tops and define a Zone of Interest (ZOI)
+	•	Compute Neutron–Density “chartbook” porosity
+	•	Estimate shale volume (Vsh) from multiple shale indicators using the Hodges–Lehmann estimator
+	•	Perform standard interactive Pickett / Archie-style saturation calculations
+	•	Compute Waxman–Smits final water saturation with physically consistent porosity partitioning
+	•	Visualize composite porosity and water using interactive PyQtGraph fill tracks
+
+![petro_suite4](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/petro_suite4_GitHub/petro_suite4.gif)
+
+This was a total learning experience resulting in a rather useful tool that imports the merged data from our previous program and and then follows our petrophysical workflow discussed above. We have tried to implement interactive slide bars to adjust parameters for our Hodges-Lehman shale volume calculations as well as our refinement of electrical properties for our Waxman-Smits water saturations. The program can be found at [this link](https://github.com/Philliec459/Open-Source-Petrophysics/tree/main/Bakken_Merged_las_sent_to_GitHub/petro_suite4_GitHub) and the program can be launched from the repository root using the following command:
+
+		python -m apps.merge_gui.main
+
+
 ---
 ---
 
