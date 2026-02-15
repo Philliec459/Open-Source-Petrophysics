@@ -94,6 +94,7 @@ We also have an **Automated** version of this process that registers a shift for
 This Automated program can be found at this [link](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-AUTO-GITHUB-Merge_well_log_by_Depth_shifted_runs_Co_Logging_QC_Dep-shift8.ipynb)
 
 We also asked ChatGPT to help translate our petrophysical workflow (written in Python) into a Qt-based graphical user interface (GUI). The workflow includes:
+
 		- Add tops and define a Zone of Interest (ZOI)
 		- Compute Neutron–Density “chartbook” porosity
 		- Estimate shale volume (Vsh) from multiple shale indicators using the Hodges–Lehmann estimator
