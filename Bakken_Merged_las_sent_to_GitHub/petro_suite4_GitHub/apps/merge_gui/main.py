@@ -4,7 +4,7 @@ import os
 import sys
 from PySide6.QtWidgets import QApplication
 
-MERGED_LAS = "/Users/craig/Documents/petro_suite2/data/outputs/merged/Merged_Well_Log_Bakken_Bakken_renamed.las"
+
 
 
 
