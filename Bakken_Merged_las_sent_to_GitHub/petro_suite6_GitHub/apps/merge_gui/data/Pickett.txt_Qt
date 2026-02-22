@@ -1,0 +1,7 @@
+# Pickett / Saturation Parameters
+# -------------------------------
+m_cem  : 2.000
+n_sat  : 2.000
+Rw     : 0.01000
+mslope : 1.000
+Bdacy  : 12.1857
