@@ -95,22 +95,24 @@ This Automated program can be found at this [link](https://github.com/Philliec45
 
 ---
 ---
-**We also asked ChatGPT to help translate our petrophysical workflow (written in Python) into a Qt-based graphical user interface (GUI).** The workflow includes:
+**We also asked ChatGPT to help translate our petrophysical workflow (written in Python) into a Qt-based graphical user interface (GUI). The workflow includes:**
 
-	- Add tops and define a Zone of Interest (ZOI)
+	- Load las file
+	- Add tops and define the Zone of Interest (ZoI)
 	- Compute Neutron–Density “chartbook” porosity
 	- Estimate shale volume (Vsh) from multiple shale indicators using the Hodges–Lehmann estimator
+		- We have added an error minimization routine to assist with shale end-point parameters
 	- Perform standard interactive Pickett / Archie-style saturation calculations
-	- Compute Waxman–Smits final water saturation with physically consistent porosity partitioning
-	- Visualize composite porosity and water using interactive PyQtGraph fill tracks
+	- Compute final Waxman–Smits water saturations with physically consistent porosity partitioning
+	- Visualize composite porosity and bulk volume water using interactive PyQtGraph filled tracks
 	
 ![petro_suite4](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/petro_suite4_GitHub/petro_suite4.gif)
 
-This was a total learning experience resulting in a rather useful tool that imports the merged data from our previous program and and then follows our petrophysical workflow discussed above. We have tried to implement interactive slide bars to adjust parameters for our Hodges-Lehman shale volume calculations as well as our refinement of electrical properties for our Waxman-Smits water saturations. The program can be found at [this link](https://github.com/Philliec459/Open-Source-Petrophysics/tree/main/Bakken_Merged_las_sent_to_GitHub/petro_suite8_GitHub) and the program can be launched from the repository root using the following command:
+Working with Qt was a total learning experience resulting in a very useful tool with GUI that imports the merged data from our previous programs and then follows our petrophysical workflow discussed above. We have tried to implement interactive slide bars to adjust parameters for our Hodges-Lehman shale volume calculations as well as our refinement of electrical properties for our Waxman-Smits water saturations. The program can be found at [this link](https://github.com/Philliec459/Open-Source-Petrophysics/tree/main/Bakken_Merged_las_sent_to_GitHub/petro_suite8_GitHub) and the program can be launched from the repository root using the following command:
 
 		python -m apps.merge_gui.main
 
-It should be stated that this is a **very specific workflow** that adds the tops, uses the CMR data in the merged las file to calibrate the Clay Bound Water volumes at each well log level and calculates a variable m* used in the Waxman-Smits analysis over the Zone of Interest. However, a majority of the petrophsical code can be modified and is located in the following *.py file:
+It should be stated that this is a **very specific workflow** that adds the tops, uses the CMR data in the merged las file to calibrate the Clay Bound Water volumes at each well log level and calculates a variable m* used in the Waxman-Smits analysis over the Zone of Interest. Almost all of this petrophysical code can be modified by a user, and the code can be found in the various *.py file. The bulk of the petrophysical code can be found in the following file:
 
 	./apps/merge_gui/ui_panels/plots_panel.py
 
