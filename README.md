@@ -116,14 +116,17 @@ It should be stated that this is a **very specific workflow** that adds the tops
 
 	./apps/merge_gui/ui_panels/plots_panel.py
 
-
-## This is a final version of our GUI development:
+---
+---
+## This is the latest version of our GUI development:
 [
 ![depth-shift](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/PetroSuite10.gif)
 
+Use this command in a text window to launch the program:
+
 		python -m apps.merge_gui.main
 		
-and code can be found at this link as a zip file:
+and code can be found at the following link as a zip file:
 
 https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/petro_suite_merge_Geolog2_GitHub_Statoil.zip
 ---
