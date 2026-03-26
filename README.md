@@ -119,7 +119,7 @@ It should be stated that this is a **very specific workflow** that adds the tops
 ---
 ---
 ## This is the latest version of our GUI development:
-[
+
 ![depth-shift](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/PetroSuite10.gif)
 
 Use this command in a text window to launch the program:
