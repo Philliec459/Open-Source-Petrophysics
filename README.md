@@ -106,7 +106,7 @@ This Automated program can be found at this [link](https://github.com/Philliec45
 	- Compute final Waxman–Smits water saturations with physically consistent porosity partitioning
 	- Visualize composite porosity and bulk volume water using interactive PyQtGraph filled tracks
 	
-![petro_suite4](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/petro_suite4_GitHub/petro_suite4.gif)
+![petro_suite3](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/petro_suite_merge_Geolog3_Statoil-Github/PetroSuite3_Geo.gif)
 
 Working with Qt was a total learning experience resulting in a very useful tool with GUI that imports the merged data from our previous programs and then follows our petrophysical workflow discussed above. We have tried to implement interactive slide bars to adjust parameters for our Hodges-Lehman shale volume calculations as well as our refinement of electrical properties for our Waxman-Smits water saturations. The program can be found at [this link](https://github.com/Philliec459/Open-Source-Petrophysics/tree/main/Bakken_Merged_las_sent_to_GitHub/petro_suite_merge_Geolog3_Statoil-Github) and the program can be launched from the repository root using the following command:
 
