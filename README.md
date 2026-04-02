@@ -95,7 +95,8 @@ This Automated program can be found at this [link](https://github.com/Philliec45
 
 ---
 ---
-## **We also asked ChatGPT to help translate our petrophysical workflow (written in Python) into a Qt-based graphical user interface (GUI). The workflow includes:**
+
+## We also asked ChatGPT to help translate our petrophysical workflow (written in Python) into a Qt-based graphical user interface (GUI). The workflow includes:
 
 	- Load las file
 	- Add tops and define the Zone of Interest (ZoI)
@@ -112,23 +113,7 @@ Working with Qt was a total learning experience resulting in a very useful tool 
 
 		python -m apps.merge_gui.main
 
-It should be stated that this is a **very specific workflow** that adds the tops, uses the CMR data in the merged las file to calibrate the Clay Bound Water volumes at each well log level and calculates a variable m* used in the Waxman-Smits analysis over the Zone of Interest. Almost all of this petrophysical code can be modified by a user, and the code can be found in the various *.py file. The bulk of the petrophysical code can be found in the following file:
 
-	./apps/merge_gui/ui_panels/plots_panel.py
-
----
----
-## This is the latest version of our GUI development:
-
-![depth-shift](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/PetroSuite10.gif)
-
-Use this command in a text window to launch the program:
-
-		python -m apps.merge_gui.main
-		
-and code can be found at the following link as a zip file:
-
-https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/petro_suite_merge_Geolog2_GitHub_Statoil.zip
 ---
 ---
 
