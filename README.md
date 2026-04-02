@@ -95,7 +95,6 @@ This Automated program can be found at this [link](https://github.com/Philliec45
 
 ---
 ---
-
 ## We also asked ChatGPT to help translate our petrophysical workflow (written in Python) into a Qt-based graphical user interface (GUI). The workflow includes:
 
 	- Load las file
