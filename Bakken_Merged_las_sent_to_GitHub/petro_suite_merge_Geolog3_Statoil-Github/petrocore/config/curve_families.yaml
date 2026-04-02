@@ -1,0 +1,118 @@
+families:
+  GR:
+    - GR_EDTC
+    - GR
+    - SGR
+    - HSGR
+    - GRC
+
+  CGR:
+    - HCGR
+    - CGR
+    - ECGR
+
+  SP:
+    - SP
+
+  CALI:
+    - HCAL
+    - CALI
+    - CALI1
+    - CAL
+    - C1
+    - CALS
+
+  BS:
+    - BS
+    - BIT
+    - BITSIZE
+
+  RHOB:
+    - RHOZ
+    - RHOB
+    - DEN
+    - RHO8
+
+  TNPH:
+    - TNPH
+    - NPHI
+    - NPOR
+    - HTNP
+    - HTNP_SAN
+    - HNPO
+
+  DTCO:
+    - DTCO
+    - DTC
+    - DT
+    - AC
+
+  DTSM:
+    - DTSM
+    - DTS
+
+  PEF:
+    - PEF
+    - PEFZ
+    - PEF8
+    - PE
+
+  RT:
+    - AT90
+    - AF90
+    - ILD
+    - LLD
+    - RT
+    - RESD
+    - RDEP
+    - RLA5
+    - AORT
+    - AORX
+
+  NMRPHIT:
+    - PHIT_NMR
+    - CMR_PHI_CONV
+
+  NMRPHIE:
+    - PHIE_NMR
+
+  CBW:
+    - CBW
+
+  BVIE:
+    - BVIE
+
+  FFI:
+    - FFI
+    - CMFF
+
+  KSDR:
+    - KSDR
+
+  KTIM:
+    - KTIM
+
+  HFK:
+    - HFK
+
+  HTHO:
+    - HTHO
+
+  HURA:
+    - HURA
+    - HTUR
+
+  DWAL_WALK2:
+    - DWAL_WALK2
+
+  DWCA_WALK2:
+    - DWCA_WALK2
+
+  DWSI_WALK2:
+    - DWSI_WALK2
+
+  DWSU_WALK2:
+    - DWSU_WALK2
+
+  DWTI_WALK2:
+    - DWTI_WALK2
