@@ -116,10 +116,9 @@ Working with Qt was a total learning experience resulting in a very useful tool 
 		python -m apps.merge_gui.main
 
 
-
 We have also included a Qt GUI version of our [merge](https://github.com/Philliec459/Open-Source-Petrophysics/tree/main/Bakken_Merged_las_sent_to_GitHub/petro_suite_merge_real_merge3_GitHub) program where we can merge multiple las files in a single well, depth shifting each run to our base run as shown in the example below:
 
-![merge](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/Merge.png)
+![merge](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/merge3.gif)
 
 ---
 ---
