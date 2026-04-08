@@ -93,6 +93,7 @@ We also have an **Automated** version of this process that registers a shift for
 
 This Automated program can be found at this [link](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/3-AUTO-GITHUB-Merge_well_log_by_Depth_shifted_runs_Co_Logging_QC_Dep-shift8.ipynb)
 
+
 ---
 ---
 ## We also asked ChatGPT to help translate our petrophysical workflow (written in Python) into a Qt-based graphical user interface (GUI). The workflow includes:
@@ -114,6 +115,11 @@ Working with Qt was a total learning experience resulting in a very useful tool 
 
 		python -m apps.merge_gui.main
 
+
+
+We have also included a Qt GUI version of our [merge](https://github.com/Philliec459/Open-Source-Petrophysics/tree/main/Bakken_Merged_las_sent_to_GitHub/petro_suite_merge_real_merge3_GitHub) program where we can merge multiple las files in a single well, depth shifting each run to our base run as shown in the example below:
+
+![merge](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/Merge.png)
 
 ---
 ---
