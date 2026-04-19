@@ -1,0 +1,15 @@
+{
+  "project_name": "HW",
+  "project_folder": "PetroSuite_Projects/HW",
+  "wells_folder": "wells",
+  "well_files": [
+    {
+      "well_name": "HW-10",
+      "file": "wells/HW-10.petro"
+    },
+    {
+      "well_name": "HW-3",
+      "file": "wells/HW-3.petro"
+    }
+  ]
+}

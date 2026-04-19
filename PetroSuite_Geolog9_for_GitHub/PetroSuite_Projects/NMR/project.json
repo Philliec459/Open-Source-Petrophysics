@@ -1,0 +1,23 @@
+{
+  "project_name": "NMR",
+  "project_folder": "PetroSuite_Projects/NMR",
+  "wells_folder": "wells",
+  "well_files": [
+    {
+      "well_name": "SUBSALT WELL - ALTERED DEPTHS & REMOVED LOWER RESISTIVE ZONE",
+      "file": "wells/SUBSALT_WELL_-_ALTERED_DEPTHS_&_REMOVED_LOWER_RESISTIVE_ZONE.petro"
+    },
+    {
+      "well_name": "Offshore",
+      "file": "wells/Offshore.petro"
+    },
+    {
+      "well_name": "SUBSALT WELL",
+      "file": "wells/SUBSALT_WELL.petro"
+    },
+    {
+      "well_name": "B2",
+      "file": "wells/B2.petro"
+    }
+  ]
+}

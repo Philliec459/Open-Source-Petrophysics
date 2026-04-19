@@ -1,0 +1,59 @@
+{
+  "project_name": "Bakken",
+  "project_folder": "PetroSuite_Projects/Bakken",
+  "wells_folder": "wells",
+  "well_files": [
+    {
+      "well_name": "FORT BERTHOLD 152-94-13B-24-1H",
+      "file": "wells/FORT_BERTHOLD_152-94-13B-24-1H.petro"
+    },
+    {
+      "well_name": "Bakken",
+      "file": "wells/Bakken.petro"
+    },
+    {
+      "well_name": "BARTLESON 44-1-2TFH",
+      "file": "wells/BARTLESON_44-1-2TFH.petro"
+    },
+    {
+      "well_name": "NESS 41-21-2XH",
+      "file": "wells/NESS_41-21-2XH.petro"
+    },
+    {
+      "well_name": "CHARLIE SORENSON 17-8 3TFH",
+      "file": "wells/CHARLIE_SORENSON_17-8_3TFH.petro"
+    },
+    {
+      "well_name": "ROSS 7-17H",
+      "file": "wells/ROSS_7-17H.petro"
+    },
+    {
+      "well_name": "DEADWOOD CANYON RANCH 43-28H",
+      "file": "wells/DEADWOOD_CANYON_RANCH_43-28H.petro"
+    },
+    {
+      "well_name": "Wayzetta 46-11M",
+      "file": "wells/Wayzetta_46-11M.petro"
+    },
+    {
+      "well_name": "McNAMARA 41-26XH",
+      "file": "wells/McNAMARA_41-26XH.petro"
+    },
+    {
+      "well_name": "MAG_2",
+      "file": "wells/MAG_2.petro"
+    },
+    {
+      "well_name": "Rollefstad Federal 12-3H3",
+      "file": "wells/Rollefstad_Federal_12-3H3.petro"
+    },
+    {
+      "well_name": "Bakken2",
+      "file": "wells/Bakken2.petro"
+    },
+    {
+      "well_name": "BRAAFLAT 11-11H",
+      "file": "wells/BRAAFLAT_11-11H.petro"
+    }
+  ]
+}
