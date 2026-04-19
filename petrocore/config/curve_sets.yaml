@@ -1,0 +1,174 @@
+sets:
+  WIRE:
+    winners:
+      - GR
+      - CGR
+      - SP
+      - CALI
+      - BS
+      - RHOB
+      - TNPH
+      - DTCO
+      - PEF
+      - RT
+    patterns:
+      # Gamma ray / SP
+      - "^GR$"
+      - "^GR_.*"
+      - "^SGR$"
+      - "^CGR$"
+      - "^HSGR$"
+      - "^HCGR$"
+      - "^ECGR$"
+      - "^SP$"
+
+      # Caliper / bit size
+      - "^CALI$"
+      - "^CALI[0-9]*$"
+      - "^HCAL$"
+      - "^CALS$"
+      - "^CAL$"
+      - "^BS$"
+      - "^BIT$"
+      - "^BITSIZE$"
+
+      # Density / neutron / PE
+      - "^RHOZ$"
+      - "^RHOB$"
+      - "^DEN$"
+      - "^ZDEN$"
+      - "^RHO8$"
+      - "^TNPH$"
+      - "^NPHI$"
+      - "^NPOR$"
+      - "^PEF$"
+      - "^PE$"
+      - "^PEFZ$"
+      - "^DRHO$"
+      - "^DRH$"
+      - "^RHOM$"
+
+      # Sonic
+      - "^DTCO$"
+      - "^DTC$"
+      - "^DT$"
+      - "^AC$"
+
+      # Resistivity
+      - "^AT[0-9]+$"
+      - "^AF[0-9]+$"
+      - "^AO[0-9]+$"
+      - "^RLA[0-5]+$"
+      - "^AORT$"
+      - "^AORX$"
+      - "^ILD$"
+      - "^ILM$"
+      - "^LLD$"
+      - "^LLS$"
+      - "^MSFL$"
+      - "^RDEP$"
+      - "^RMED$"
+      - "^RSHA$"
+      - "^RXO.*$"
+      - "^RT$"
+      - "^RESD$"
+
+  NMR:
+    winners:
+      - PHIT_NMR
+      - PHIE_NMR
+      - TCMR
+      - MPHS
+      - CMRP_3MS
+      - MPHI
+      - MBVI
+      - BFV
+      - CBW
+      - BVIE
+      - FFI
+      - KSDR
+      - KTIM
+    patterns:
+      - "^CBP[0-9]+$"
+      - "^CMR.*"
+      - "^T2.*"
+      - "^TCMR$"
+      - "^BFV$"
+      - "^CDF$"
+      - "^CMFF_SIG$"
+      - "^PHIT_NMR$"
+      - "^PHIE_NMR$"
+      - "^TCMR$"
+      - "^BVIE$"
+      - "^CBW$"
+      - "^FFI$"
+      - "^KTIM$"
+      - "^KSDR$"
+
+
+  ECS:
+    winners:
+      - DWAL_WALK2
+      - DWCA_WALK2
+      - DWSI_WALK2
+      - DWSU_WALK2
+      - DWTI_WALK2
+    patterns:
+      - "^DW.*_WALK2$"
+      - "^DXFE_WALK2$"
+      - "^W.*_WALK2$"
+
+  NGS:
+    winners:
+      - HFK
+      - HTHO
+      - HURA
+    patterns:
+      - "^HFK$"
+      - "^HTHO$"
+      - "^HURA$"
+      - "^HTUR$"
+      - "^ECGR$"
+      - "^HSGR$"
+      - "^HGR$"
+      - "^HTNP$"
+      - "^HPRA$"
+      - "^HNPO$"
+ 
+
+
+  ACOUSTIC:
+    winners:
+      - DTCO
+      - DTSM
+    patterns:
+      - "^DTCO$"
+      - "^DTSM$"
+      - "^VPVS$"
+      - "^PR$"
+
+  ANALYSIS:
+    winners: []
+    patterns:
+      - "^PHIT$"
+      - "^PHIE$"
+      - "^POR_.*"
+      - "^VSH.*"
+      - "^SW.*"
+      - "^BVW.*"
+      - "^BVH.*"
+
+  DIR:
+    winners:
+      - HAZI
+      - HAZIM
+      - INCL
+    patterns:
+      - "^HAZI$"
+      - "^INCL$"
+
+
+
+  MISC:
+    winners: []
+    patterns: []
