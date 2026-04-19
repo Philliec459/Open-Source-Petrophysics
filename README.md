@@ -109,7 +109,7 @@ This Automated program can be found at this [link](https://github.com/Philliec45
 
 Animated gif showing typical workflow:
 
-![petro_suite3](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/petro_suite_merge_Geolog3_Statoil-Github/PetroSuite3_Geo.gif)
+![petro_suite9](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/PetroSuite_Geolog9_for_GitHub/PetroSuite_ToLinkedIn.gif)
 
 Working with Qt was a total learning experience resulting in a very useful tool with GUI that imports the merged data from our previous programs and then follows our petrophysical workflow discussed above. We have tried to implement interactive slide bars to adjust parameters for our Hodges-Lehman shale volume calculations as well as our refinement of electrical properties for our Waxman-Smits water saturations. The program can be found at [this link](https://github.com/Philliec459/Open-Source-Petrophysics/tree/main/Bakken_Merged_las_sent_to_GitHub/petro_suite_merge_Geolog3_Statoil-Github) and can be launched from the repository root using the following python command:
 
