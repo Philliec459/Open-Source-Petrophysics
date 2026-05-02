@@ -5,6 +5,7 @@ from dataclasses import dataclass, field
 from typing import List, Dict, Optional
 
 import numpy as np
+from petrocore.config.curve_aliases import best_curve
 import pandas as pd
 
 from PySide6.QtWidgets import QWidget, QVBoxLayout
@@ -136,8 +137,8 @@ class LogCanvasPG(QWidget):
     def standard_4track_template(ds: Dataset) -> List[TrackSpec]:
         # Use your family preference lists if present
         gr  = ds.best_curve_for_family("GR")  or ds.first_present(["HSGR", "GR", "SGR"])
-        rhb = ds.best_curve_for_family("RHOB") or ds.first_present(["RHOZ", "RHOB"])
-        tnp = ds.best_curve_for_family("TNPH") or ds.first_present(["TNPH", "NPHI", "NPOR"])
+        rhb = ds.best_curve_for_family("RHOB") or best_curve(getattr(ds, "df", pd.DataFrame()).columns, "RHOB")
+        tnp = ds.best_curve_for_family("TNPH") or best_curve(getattr(ds, "df", pd.DataFrame()).columns, "TNPH")
         rt  = ds.best_curve_for_family("RT")   or ds.first_present(["AT90", "AF90", "ILD", "RT"])
 
         tracks = [

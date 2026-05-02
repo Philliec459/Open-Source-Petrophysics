@@ -123,6 +123,8 @@ sets:
       - HFK
       - HTHO
       - HURA
+      - HCGR
+      - HSGR
     patterns:
       - "^HFK$"
       - "^HTHO$"
