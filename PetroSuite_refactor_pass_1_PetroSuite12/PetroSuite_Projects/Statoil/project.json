@@ -1,0 +1,51 @@
+{
+  "project_name": "Statoil",
+  "project_folder": "PetroSuite_Projects/Statoil",
+  "wells_folder": "wells",
+  "well_files": [
+    {
+      "well_name": "15-9-19-BT2",
+      "file": "wells/15-9-19-BT2.petro"
+    },
+    {
+      "well_name": "15-9-19-A",
+      "file": "wells/15-9-19-A.petro"
+    },
+    {
+      "well_name": "15-9-19-SR",
+      "file": "wells/15-9-19-SR.petro"
+    },
+    {
+      "well_name": "15/9-F-1 C",
+      "file": "wells/15_9-F-1_C.petro"
+    },
+    {
+      "well_name": "15/9-F-11 B",
+      "file": "wells/15_9-F-11_B.petro"
+    },
+    {
+      "well_name": "15/9-F-12",
+      "file": "wells/15_9-F-12.petro"
+    },
+    {
+      "well_name": "15/9-F-15 D",
+      "file": "wells/15_9-F-15_D.petro"
+    },
+    {
+      "well_name": "15/9-F-1 B",
+      "file": "wells/15_9-F-1_B.petro"
+    },
+    {
+      "well_name": "15/9-F-1 A",
+      "file": "wells/15_9-F-1_A.petro"
+    },
+    {
+      "well_name": "15/9-F-11 A",
+      "file": "wells/15_9-F-11_A.petro"
+    },
+    {
+      "well_name": "BRAAFLAT 11-11H",
+      "file": "wells/BRAAFLAT_11-11H.petro"
+    }
+  ]
+}
