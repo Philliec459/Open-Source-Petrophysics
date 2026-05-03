@@ -120,7 +120,7 @@ In PetroSuite we also use python's Altair that allows for interactive cross plot
 ![altair_petro_suite9](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/PetroSuite_Geolog9_for_GitHub/PetroSuite_Altair.gif)
 
 ---
-## We have a new version of PetroSuite12 that refines the Qt code at this [link.](https://github.com/Philliec459/Open-Source-Petrophysics/tree/main/PetroSuite_refactor_pass_1_PetroSuite12) This puts most of the analysis code into petrocore subdirectory, where the apps subdirectory supplying most of the GUI code. We are also trying to refine the curve families too and putting well log families in proper sets.
+## We have a new version of PetroSuite_ver12 with refined Qt code at this [link.](https://github.com/Philliec459/Open-Source-Petrophysics/tree/main/PetroSuite_refactor_pass_1_PetroSuite12) This version puts most of the analysis code into **petrocore** subdirectory, with the **apps** subdirectory supplying most of the GUI code. We have refined the curve families too where we are  putting well log curves into the proper sets.
 ---
 
 We have also included a Qt GUI version of our [merge](https://github.com/Philliec459/Open-Source-Petrophysics/tree/main/Bakken_Merged_las_sent_to_GitHub/petro_suite_merge_real_merge3_GitHub) program where we can merge multiple las files in a single well, depth shifting each run to our base run as shown in the example below:
