@@ -152,7 +152,7 @@ Following recommendations from **Dr. Torres-Verdin**, we extend the Gaussian fra
 * Provides improved flexibility compared to symmetric Gaussian models
 * Code has been simplified for transparency and avoids unnecessary parameter re-sorting
 
-This approach often yields a more realistic representation of pore systems, particularly in heterogeneous or diagenetically altered reservoirs.
+This approach often yields a more realistic representation of pore systems, particularly in heterogeneous or diagenetically altered reservoirs. This is the link to this [program](https://github.com/Philliec459/Open-Source-Petrophysics/tree/main/GEV_Gaussian_KGS_data).
 
 ---
 
