@@ -127,6 +127,83 @@ We have also included a Qt GUI version of our [merge](https://github.com/Phillie
 
 ![merge](https://github.com/Philliec459/Open-Source-Petrophysics/blob/main/Bakken_Merged_las_sent_to_GitHub/merge3.gif)
 
+
+---
+---
+# **Open Source Petrophysics: Fitting MICP Data to Gaussian Density Functions**
+
+### **Gaussian Density Function *(1)***
+This implementation follows the methodology of **Xu and Torres-Verdin *(1)***, applying a **bimodal Gaussian density function** to represent pore system distributions.
+
+* Uses core-based petrophysical rock classification
+* Captures pore-system orthogonality through dual Gaussian components
+* Fits are derived from the **Cumulative Distribution Function (CDF)** for stability
+* The resulting **Probability Density Function (PDF)** defines the pore throat distribution (PTD)
+
+The example dataset includes 35 HPMI samples from the Hugoton Field. The original MATLAB implementation by Xu has been reproduced and adapted into a more accessible Python workflow.
+---
+
+### **Generalized Extreme Value (GEV) Density Function *(2,8)***
+
+Following recommendations from **Dr. Torres-Verdin**, we extend the Gaussian framework using a **Generalized Extreme Value (GEV) distribution** (via SciPy’s `genextreme`).
+
+* Introduces controlled skewness via shape parameter **ξ = -0.5**
+* Better represents the asymmetric tails commonly observed in MICP-derived PTDs
+* Provides improved flexibility compared to symmetric Gaussian models
+* Code has been simplified for transparency and avoids unnecessary parameter re-sorting
+
+This approach often yields a more realistic representation of pore systems, particularly in heterogeneous or diagenetically altered reservoirs.
+
+---
+
+### **Buiting–Clerke Permeability Model *(6,7)***
+
+We have also implemented the **Buiting–Clerke permeability method**, which applies a Laplace-type transformation of the pore volume function (BVfun) to estimate permeability.
+
+Key observations:
+
+* Strong empirical correlation (**R² ≈ 0.92**) with KGS-measured permeability
+* The **area under log(BVfun)** shows a consistent relationship with permeability (>0.9 correlation)
+* Suggests a physically meaningful link between pore structure distribution and flow capacity
+
+This method is currently under active evaluation but shows promising results.
+
+```python
+'''Buiting-Clerke Permeability'''
+Dlambda = 1.56
+LLd = 0.5
+
+BVfun = np.where(
+    Pc >= Pc_at_first_increase,
+    BVocc_est * np.exp(-(2 * Dlambda) * np.log(Pc)),
+    0.00
+)
+
+BVfun_sum = np.sum(BVfun)
+
+Constant = (
+    np.exp((-2 * (1 - Dlambda)) * np.log(Pc_at_first_increase))
+    * (Dlambda / 4)
+) * LLd**2
+
+Ksi = 107  # Hg–Air system: 2σcosθ ≈ 107 psi·μm
+Perm_BC = BVfun_sum * Constant * Ksi**2
+```
+
+---
+### **Comparison of Methods**
+
+> ![image](Gaussian_GEV_CDF_PDF_Thomeer.png)
+
+We also reference the work of **Buiting and Clerke *(7,8)*** for **upscaling capillary pressure and permeability**, incorporating uncertainty in displacement pressure (*Pd*) and geometric factor (*G*), as illustrated below:
+
+> ![image](Upscaled_Pc_Perm_BVfun.gif)
+
+---
+## **Closing Thought**
+These workflows are designed to prioritize **transparency over black-box methods**, providing physically interpretable parameters that link pore structure to reservoir performance.
+
+
 ---
 ---
 
@@ -224,10 +301,11 @@ We have also included a Qt GUI version of our [merge](https://github.com/Phillie
 ---
 ## REFERENCES:
 1.  Xu, C., Torres-Verdín, C. Pore System Characterization and Petrophysical Rock Classification Using a Bimodal Gaussian Density Function. Math Geoscience 45, 753–771 (2013). https://doi.org/10.1007/s11004-013-9473-2
-2.  Costa Gomes J, Geiger S, Arnold D. The Design of an Open-Source Carbonate Reservoir Model. Petroleum Geoscience, 
+2.  Xu, C and Torres-Verdin, C, "Core-Based Petrophysical Rock Classification by Quantifying Pore-System Orthogonality with a Bimodal Gaussian Density Function", SCA2013-079, September 2013.
+3.  Costa Gomes J, Geiger S, Arnold D. The Design of an Open-Source Carbonate Reservoir Model. Petroleum Geoscience, 
     https://doi.org/10.1144/petgeo2021-067
-3.  Phillips, E. C., Buiting, J. M., Clerke, E. A, “Full Pore System Petrophysical Characterization Technology for Complex Carbonate Reservoirs – Results from Saudi Arabia”, AAPG, 2009 Extended Abstract.
-4.  Clerke, E. A., Mueller III, H. W., Phillips, E. C., Eyvazzadeh, R. Y., Jones, D. H., Ramamoorthy, R., Srivastava, A., (2008) “Application of Thomeer Hyperbolas to decode the pore systems, facies and reservoir properties of the Upper Jurassic Arab D Limestone, Ghawar field, Saudi Arabia: A Rosetta Stone approach”, GeoArabia, Vol. 13, No. 4, p. 113-160, October 2008.
-5.  J.M. Buiting, Fully Upscaled Saturation-Height Functions for Reservoir Modeling Based on Thomeer's Method for Analyzing Capillary Pressure Measurements, SPE Paper 105139, 2007.
-6.  J.J.M. Buiting, E.A. Clerke, Permeability from Porosimetry Measurements: Derivation for a Tortuous and Fractal Tubular Bundle, Journal of Petroleum Science and Engineering, 108 (2013), 267–278.
-7. Raheem, O., Morales, M., Saputra, W., Torres-Verdín, C., Phillips, C., Xu, C., “Universal Data-Driven Permeability Modeling by Connecting MICP Analytics with Big Data,” SPWLA 2025.
+4.  Phillips, E. C., Buiting, J. M., Clerke, E. A, “Full Pore System Petrophysical Characterization Technology for Complex Carbonate Reservoirs – Results from Saudi Arabia”, AAPG, 2009 Extended Abstract.
+5.  Clerke, E. A., Mueller III, H. W., Phillips, E. C., Eyvazzadeh, R. Y., Jones, D. H., Ramamoorthy, R., Srivastava, A., (2008) “Application of Thomeer Hyperbolas to decode the pore systems, facies and reservoir properties of the Upper Jurassic Arab D Limestone, Ghawar field, Saudi Arabia: A Rosetta Stone approach”, GeoArabia, Vol. 13, No. 4, p. 113-160, October 2008.
+6.  J.M. Buiting, Fully Upscaled Saturation-Height Functions for Reservoir Modeling Based on Thomeer's Method for Analyzing Capillary Pressure Measurements, SPE Paper 105139, 2007.
+7.  J.J.M. Buiting, E.A. Clerke, Permeability from Porosimetry Measurements: Derivation for a Tortuous and Fractal Tubular Bundle, Journal of Petroleum Science and Engineering, 108 (2013), 267–278.
+8. Raheem, O., Morales, M., Saputra, W., Torres-Verdín, C., Phillips, C., Xu, C., “Universal Data-Driven Permeability Modeling by Connecting MICP Analytics with Big Data,” SPWLA 2025.
