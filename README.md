@@ -130,7 +130,7 @@ We have also included a Qt GUI version of our [merge](https://github.com/Phillie
 
 ---
 ---
-# **Open Source Petrophysics: Fitting MICP Data to Gaussian Density Functions**
+# **Fitting MICP Data to Gaussian Density Functions**
 
 ### **Gaussian Density Function *(1)***
 This implementation follows the methodology of **Xu and Torres-Verdin *(1)***, applying a **bimodal Gaussian density function** to represent pore system distributions.
