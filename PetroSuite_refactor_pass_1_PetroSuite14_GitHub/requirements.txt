@@ -1,0 +1,11 @@
+PySide6
+altair
+lasio
+matplotlib
+numpy
+openpyxl
+pandas
+pyqtgraph
+PyYAML
+pytest
+scipy
